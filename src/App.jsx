@@ -116,6 +116,12 @@ const clientLogos = [
   { name: 'Atlantis The Royal', image: '/images/client-atlantis-the-royal.png' },
   { name: 'Dubai Golf', image: '/images/client-dubai-golf.png' },
   { name: 'Park Hyatt', image: '/images/client-park-hyatt.png' },
+  { name: 'Super General', image: '/images/client-super-general.png' },
+  { name: 'Chacha Lahore Restaurant', image: '/images/client-chacha-lahore.png' },
+  { name: 'Makhanawala Modern Indian Dhaba', image: '/images/client-makhanawala.png' },
+  { name: 'Lads Burgers', image: '/images/client-lads-burgers.png' },
+  { name: 'DAMAC', image: '/images/client-damac.png' },
+  { name: 'Paramount Hotel Dubai', image: '/images/client-paramount-hotel.png' },
 ];
 
 const reviewPlaceholders = [
