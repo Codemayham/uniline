@@ -12,9 +12,10 @@ const imageLessCategories = new Set(
     : [],
 );
 
-const PHONE = '+97142228077';
+const PHONE = '+971504940277';
+const PHONE_DISPLAY = '+971 50 494 0277';
 const EMAIL = 'info@unilineadvertising.ae';
-const WHATSAPP_NUMBER = '971504940277';
+const WHATSAPP_NUMBER = PHONE.replace(/^\+/, '');
 const HERO_PHRASES = [
   'impossible to forget.',
   'More Than Just a Logo',
@@ -113,6 +114,8 @@ const clientLogos = [
   { name: 'Mandarin Oriental Jumeira, Dubai', image: '/images/client-mandarin-oriental.png' },
   { name: 'One&Only', image: '/images/client-one-and-only.png' },
   { name: 'Atlantis The Royal', image: '/images/client-atlantis-the-royal.png' },
+  { name: 'Dubai Golf', image: '/images/client-dubai-golf.png' },
+  { name: 'Park Hyatt', image: '/images/client-park-hyatt.png' },
 ];
 
 const reviewPlaceholders = [
@@ -1015,7 +1018,7 @@ function App() {
               <h2>Tell us what<br />you <span>have in mind.</span></h2>
               <p>Share a little about your project. Whether you have a clear brief or are just exploring, we're ready to help you find a direction.</p>
               <div className="contact-divider" />
-              <div className="contact-detail"><span className="contact-icon"><Phone size={17} /></span><span><small>CALL OUR OFFICE</small><a href={`tel:${PHONE}`}>+971 4 222 8077</a></span></div>
+              <div className="contact-detail"><span className="contact-icon"><Phone size={17} /></span><span><small>CALL OUR OFFICE</small><a href={`tel:${PHONE}`}>{PHONE_DISPLAY}</a></span></div>
               <div className="contact-detail"><span className="contact-icon">W</span><span><small>CHAT WITH US</small><WhatsAppLink className="contact-link">Chat on WhatsApp</WhatsAppLink></span></div>
               <div className="contact-detail"><span className="contact-icon"><Clock3 size={17} /></span><span><small>FIND US</small><strong>310, Zakir Business Centre,<br />Abu Hail, Deira</strong></span></div>
               <div className="contact-detail"><span className="contact-icon"><Send size={16} /></span><span><small>EMAIL OUR TEAM</small><a href={`mailto:${EMAIL}`}>{EMAIL}</a></span></div>
@@ -1039,7 +1042,7 @@ function App() {
           <div className="footer-about"><Brand light /><p>Promotional merchandise and branding solutions for meaningful business connections.</p><div className="footer-social"><WhatsAppLink className="footer-whatsapp">Chat on WhatsApp</WhatsAppLink><a href={`tel:${PHONE}`}><Phone size={14} /> Call us</a></div></div>
           <div className="footer-links"><h4>EXPLORE</h4><a href="/#about">About us</a><a href="/products">Product catalogue</a><a href="/#approach">Corporate solutions</a><button className="footer-link-button" onClick={() => openQuote()}>Request a quote</button></div>
           <div className="footer-links"><h4>PRODUCTS</h4><a href="/products?category=Corporate%20Gifts%20%26%20Executive%20Gifts">Corporate gifts</a><a href="/products?category=Drinkware">Drinkware</a><a href="/products?category=Bags%20%26%20Promotional%20Merchandise">Bags &amp; merchandise</a><a href="/products?category=Technology%20%26%20Electronic%20Accessories">Tech accessories</a></div>
-          <div className="footer-contact"><h4>GET IN TOUCH</h4><a href={`tel:${PHONE}`}>+971 4 222 8077 <ArrowUpRight size={13} /></a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><address>310, Zakir Business Centre,<br />Abu Hail, Deira</address></div>
+          <div className="footer-contact"><h4>GET IN TOUCH</h4><a href={`tel:${PHONE}`}>{PHONE_DISPLAY} <ArrowUpRight size={13} /></a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><address>310, Zakir Business Centre,<br />Abu Hail, Deira</address></div>
         </div>
         <div className="footer-bottom section-wrap"><span>© {new Date().getFullYear()} Uniline Promotions. All rights reserved.</span><span>Corporate gifts and branding solutions · Dubai, UAE</span><a href="/">Back to top ↑</a></div>
       </footer>
