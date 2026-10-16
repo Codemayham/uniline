@@ -113,6 +113,7 @@ h1, h2, h3, p { margin-top: 0; }
 .client-logos-group { display: flex; flex: 0 0 auto; align-items: center; gap: 18px; padding-right: 18px; }
 .client-logo-card { width: 166px; height: 100px; flex: 0 0 auto; display: grid; place-items: center; padding: 14px; background: var(--color-surface); border: 1px solid var(--color-border); }
 .client-logo-card img { display: block; width: 100%; height: 100%; max-width: 140px; max-height: 72px; object-fit: contain; }
+.client-logo-card-emphasized img { transform: scale(1.18); }
 .client-logo-card-dark { background: var(--color-secondary-brand); border-color: var(--color-secondary-brand); }
 .client-logos-window:hover .client-logos-track,
 .client-logos-window:focus-within .client-logos-track { animation-play-state: paused; }

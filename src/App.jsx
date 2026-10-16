@@ -115,13 +115,13 @@ const clientLogos = [
   { name: 'One&Only', image: '/images/client-one-and-only.png' },
   { name: 'Atlantis The Royal', image: '/images/client-atlantis-the-royal.png' },
   { name: 'Dubai Golf', image: '/images/client-dubai-golf.png' },
-  { name: 'Park Hyatt', image: '/images/client-park-hyatt.png' },
+  { name: 'Park Hyatt', image: '/images/client-park-hyatt.png', emphasized: true },
   { name: 'Super General', image: '/images/client-super-general.png' },
-  { name: 'Chacha Lahore Restaurant', image: '/images/client-chacha-lahore.png' },
-  { name: 'Makhanawala Modern Indian Dhaba', image: '/images/client-makhanawala.png' },
+  { name: 'Chacha Lahore Restaurant', image: '/images/client-chacha-lahore.png', emphasized: true },
+  { name: 'Makhanawala Modern Indian Dhaba', image: '/images/client-makhanawala.png', emphasized: true },
   { name: 'Lads Burgers', image: '/images/client-lads-burgers.png' },
-  { name: 'DAMAC', image: '/images/client-damac.png' },
-  { name: 'Paramount Hotel Dubai', image: '/images/client-paramount-hotel.png' },
+  { name: 'DAMAC', image: '/images/client-damac.png', emphasized: true },
+  { name: 'Paramount Hotel Dubai', image: '/images/client-paramount-hotel.png', emphasized: true },
 ];
 
 const reviewPlaceholders = [
@@ -153,8 +153,8 @@ function ClientLogoCarousel() {
         <div className="client-logos-track">
           {[0, 1].map((copy) => (
             <div className="client-logos-group" key={copy} aria-hidden={copy === 1}>
-              {clientLogos.map(({ name, image, dark }) => (
-                <div className={`client-logo-card${dark ? ' client-logo-card-dark' : ''}`} key={name}>
+              {clientLogos.map(({ name, image, dark, emphasized }) => (
+                <div className={`client-logo-card${dark ? ' client-logo-card-dark' : ''}${emphasized ? ' client-logo-card-emphasized' : ''}`} key={name}>
                   <img src={image} alt={copy === 0 ? name : ''} />
                 </div>
               ))}
