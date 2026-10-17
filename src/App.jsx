@@ -1,16 +1,9 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
-  ArrowDown, ArrowRight, ArrowUpRight, Award, Check, ChevronDown, ChevronLeft, ChevronRight, CircleHelp,
-  Clock3, Gift, Menu, PackageCheck, Phone, Search, Send, Sparkles, Tag, X,
+  ArrowDown, ArrowRight, ArrowUpRight, Award, Check, ChevronLeft, ChevronRight,
+  Clock3, Gift, Menu, PackageCheck, Phone, Search, Send, X,
 } from 'lucide-react';
 import { serviceCategories } from './servicesData.js';
-
-const imageLessCategoryStart = serviceCategories.findIndex(({ name }) => name === 'Office Supplies & Stationery');
-const imageLessCategories = new Set(
-  imageLessCategoryStart >= 0
-    ? serviceCategories.slice(imageLessCategoryStart).map(({ name }) => name)
-    : [],
-);
 
 const PHONE = '+971504940277';
 const PHONE_DISPLAY = '+971 50 494 0277';
@@ -21,76 +14,6 @@ const HERO_PHRASES = [
   'More Than Just a Logo',
   'Stand Out in Every Detail',
   'Part of Their Everyday.',
-];
-
-const products = [
-  {
-    id: 'UG-001', name: 'Executive Gift Set', category: 'Executive Gift Sets',
-    description: 'A considered collection of everyday essentials, presented together for a polished welcome or thank-you.',
-    image: '/images/corporate-gifts-executive-gift-sets.png', type: 'Gift sets', brandable: true,
-  },
-  {
-    id: 'UG-002', name: 'Signature Hardcover Journal', category: 'Promotional Pens & Stationery',
-    description: 'A refined hard-cover notebook suited to meetings, conferences, and thoughtful client gifting.',
-    image: 'photo-1531346878377-a5be20888e57', type: 'Stationery', brandable: true,
-  },
-  {
-    id: 'UG-003', name: 'Insulated Travel Bottle', category: 'Branded Drinkware',
-    description: 'A clean, reusable drinkware choice for team welcome packs and everyday brand visibility.',
-    image: 'photo-1602143407151-7111542de6e8', type: 'Drinkware', brandable: true,
-  },
-  {
-    id: 'UG-004', name: 'Everyday Canvas Tote', category: 'Bags & Backpacks',
-    description: 'A versatile carryall for events, retail campaigns, and practical branded gifting.',
-    image: 'photo-1544816155-12df9643f363', type: 'Bags', brandable: true,
-  },
-  {
-    id: 'UG-005', name: 'Wireless Charging Pad', category: 'Tech Accessories',
-    description: 'A useful desk accessory that brings a modern touch to a corporate gift or employee kit.',
-    image: 'photo-1586953208448-b95a79798f07', type: 'Technology', brandable: true,
-  },
-  {
-    id: 'UG-006', name: 'Premium Desk Pen', category: 'Promotional Pens & Stationery',
-    description: 'A timeless writing essential for conferences, client meetings, and promotional campaigns.',
-    image: 'photo-1583485088034-697b5bc54ccd', type: 'Stationery', brandable: true,
-  },
-  {
-    id: 'UG-007', name: 'Welcome Kit Essentials', category: 'Corporate Gifts',
-    description: 'A coordinated set of practical items to make a considered first impression for new teams.',
-    image: '/images/corporate-gifts-employee-welcome-kits.png', type: 'Gift sets', brandable: true,
-  },
-  {
-    id: 'UG-008', name: 'Classic Ceramic Mug', category: 'Branded Drinkware',
-    description: 'A familiar favourite for office desks, event handouts, and custom corporate collections.',
-    image: 'photo-1514228742587-6b1558fcca3d', type: 'Drinkware', brandable: true,
-  },
-  {
-    id: 'UG-009', name: 'Recognition Award', category: 'Awards & Recognition',
-    description: 'A presentation-ready award concept for recognising milestones and celebrating teams.',
-    image: 'photo-1567427018141-0584cfcbf1b8', type: 'Recognition', brandable: true,
-  },
-  {
-    id: 'UG-010', name: 'Event Essentials Pack', category: 'Event Giveaways',
-    description: 'A flexible mix of useful branded pieces for exhibitions, conferences, and campaigns.',
-    image: 'photo-1517457373958-b7bdd4587205', type: 'Event merchandise', brandable: true,
-  },
-  {
-    id: 'UG-011', name: 'Branded Gift Box', category: 'Customized Packaging',
-    description: 'A crisp packaging concept to bring your selected gift items together with care.',
-    image: 'photo-1607082349566-187342175e2f', type: 'Packaging', brandable: true,
-  },
-  {
-    id: 'UG-012', name: 'Corporate Apparel', category: 'Corporate Apparel',
-    description: 'A coordinated apparel option for team identity, promotions, and event-day dressing.',
-    image: 'photo-1521572163474-6864f9cf17ab', type: 'Apparel', brandable: true,
-  },
-];
-
-const categories = [
-  'All products', 'Corporate Gifts', 'Promotional Pens & Stationery', 'Branded Drinkware',
-  'Bags & Backpacks', 'Corporate Apparel', 'Tech Accessories', 'Executive Gift Sets',
-  'Watches & Timepieces', 'Awards & Recognition', 'Customized Packaging',
-  'Printing & Marketing Materials', 'Event Giveaways',
 ];
 
 const benefits = [
@@ -140,6 +63,12 @@ const reviewPlaceholders = [
 function imageUrl(id, width = 720, fit = 'crop') {
   if (id.startsWith('/')) return id;
   return `https://images.unsplash.com/${id}?auto=format&fit=${fit}&w=${width}&q=82`;
+}
+
+function resolveServiceCategory(categoryName) {
+  if (serviceCategories.some((category) => category.name === categoryName)) return categoryName;
+  if (categoryName === 'Product Customization & Branding Services') return 'Printing';
+  return 'All items';
 }
 
 function ClientLogoCarousel() {
@@ -286,8 +215,9 @@ function makeWhatsAppUrl(message) {
 }
 
 function WhatsAppLink({ product, className = '', children, ...props }) {
+  const productReference = product?.code ? ` (${product.code})` : '';
   const message = product
-    ? `Hello Uniline Promotions, I would like to enquire about ${product.name} (${product.id}). Please share your pricing, available branding options, and bulk-order details.`
+    ? `Hello Uniline Promotions, I would like to enquire about ${product.name}${productReference}. Please share the relevant details and a quote.`
     : 'Hello Uniline Promotions, I would like to know more about your corporate gifts and promotional merchandise. Please assist me with your catalogue and quotation.';
   const isFloating = className.split(/\s+/).includes('floating-whatsapp');
   return (
@@ -340,8 +270,8 @@ function Header({ onQuote, onProducts, onHome, isProductsPage }) {
           <a href="/products" aria-current={isProductsPage ? 'page' : undefined} onClick={(event) => { event.preventDefault(); closeMenu(); onProducts(); }}>Products</a>
           <a href="/#approach" onClick={navigateHome('approach')}>Solutions</a>
           <a
-            href="/products?category=Product%20Customization%20%26%20Branding%20Services"
-            onClick={(event) => { event.preventDefault(); closeMenu(); onProducts('Product Customization & Branding Services'); }}
+            href="/products?category=Printing"
+            onClick={(event) => { event.preventDefault(); closeMenu(); onProducts('Printing'); }}
           >
             Printing &amp; Branding
           </a>
@@ -354,7 +284,7 @@ function Header({ onQuote, onProducts, onHome, isProductsPage }) {
   );
 }
 
-function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange, items, onEnquire }) {
+function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange, items, onDetails, onEnquire }) {
   const [itemsToShow, setItemsToShow] = useState(20);
 
   useEffect(() => {
@@ -406,7 +336,13 @@ function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange
         {items.length ? (
           <div className="service-items-grid products-page-grid">
             {visibleItems.map(({ product, category }) => (
-              <ServiceItemCard key={product.id} product={product} category={category} onEnquire={onEnquire} />
+              <ServiceItemCard
+                key={product.id}
+                product={product}
+                category={category}
+                onDetails={onDetails}
+                onEnquire={onEnquire}
+              />
             ))}
           </div>
         ) : (
@@ -427,71 +363,85 @@ function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange
   );
 }
 
-function ProductCard({ product, onDetails, onQuote }) {
+function HomeServices({ onSelectCategory }) {
   return (
-    <article className="product-card">
-      <button className="product-image" onClick={() => onDetails(product)} aria-label={`View details for ${product.name}`}>
-        <img src={imageUrl(product.image)} alt={`${product.name} sample product`} loading="lazy" />
-        <span className="image-arrow"><ArrowUpRight size={17} /></span>
-      </button>
-      <div className="product-info">
-        <div className="product-meta"><span>{product.category}</span><span>REF. {product.id}</span></div>
-        <button className="product-title" onClick={() => onDetails(product)}>{product.name}</button>
-        <p>{product.description}</p>
-        <div className="product-bottom">
-          <span className="custom-tag"><Sparkles size={13} /> Custom branding</span>
-          <button className="text-link" onClick={() => onQuote(product)}>Enquire <ArrowRight size={15} /></button>
+    <section className="home-services section-wrap" id="products" aria-labelledby="home-services-title">
+      <div className="section-heading">
+        <div>
+          <span className="section-index">02 / OUR SERVICES</span>
+          <h2 id="home-services-title">Explore our <span>services.</span></h2>
         </div>
+        <p>Browse our catalogue by service category and find the right products for your needs.</p>
       </div>
-    </article>
+      <div className="home-services-grid">
+        {serviceCategories.map((category) => {
+          const image = category.products[0];
+          return (
+            <button
+              type="button"
+              className="home-service-card"
+              key={category.name}
+              onClick={() => onSelectCategory(category.name)}
+              aria-label={`Browse ${category.name}, ${category.products.length} listings`}
+            >
+              <span className="home-service-image">
+                <img src={imageUrl(image.image, 560, 'max')} alt="" loading="lazy" />
+              </span>
+              <span className="home-service-info">
+                <span className="home-service-count">{category.products.length} listings</span>
+                <strong>{category.name}</strong>
+                <span className="home-service-link">Browse category <ArrowRight size={15} /></span>
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 
-function ServiceItemCard({ product, category, onEnquire }) {
-  const showProductImage = !imageLessCategories.has(category);
-  const hasRevealImage = showProductImage && (product.image.startsWith('/images/drinkware-')
-    || product.image.startsWith('/images/bags-')
-    || product.image.startsWith('/images/corporate-gifts-'));
-
+function ServiceItemCard({ product, category, onDetails, onEnquire }) {
+  const highlights = [
+    ...(product.specifications ?? []),
+    ...(product.bestFor ? [`Best for: ${product.bestFor}`] : []),
+    ...(product.keyBenefit ? [`Key benefit: ${product.keyBenefit}`] : []),
+    ...(product.size ?? []).map((value) => `Size: ${value}`),
+    ...(product.capacity ?? []).map((value) => `Capacity: ${value}`),
+    ...(product.printingTechniques ?? []).map((value) => `Printing: ${value}`),
+  ].filter(Boolean).slice(0, 2);
   return (
     <article className="service-item-card catalogue-product-card">
-      {hasRevealImage && (
-        <div className="catalogue-image-preview">
-          <div className="service-item-image">
-            <img
-              src={imageUrl(product.image, 600, 'max')}
-              alt={`Representative image for ${product.name}`}
-              loading="lazy"
-              onError={(event) => {
-                event.currentTarget.hidden = true;
-                event.currentTarget.parentElement.classList.add('service-image-fallback');
-              }}
-            />
-          </div>
-        </div>
-      )}
-      {showProductImage && !hasRevealImage && (
-        <div className="service-item-image">
-          <img
-            src={imageUrl(product.image, 600, 'max')}
-            alt={`Representative image for ${product.name}`}
-            loading="lazy"
-            onError={(event) => {
-              event.currentTarget.hidden = true;
-              event.currentTarget.parentElement.classList.add('service-image-fallback');
-            }}
-          />
-          {product.type === 'service' && <span className="service-type-badge">SERVICE</span>}
-        </div>
-      )}
+      <div className="service-item-image">
+        <img
+          src={imageUrl(product.image, 600, 'max')}
+          alt={product.name}
+          loading="lazy"
+          onError={(event) => {
+            event.currentTarget.hidden = true;
+            event.currentTarget.parentElement.classList.add('service-image-fallback');
+          }}
+        />
+        {product.type === 'service' && <span className="service-type-badge">SERVICE</span>}
+      </div>
       <div className="service-item-content">
-        <div className="service-item-reference">REF. {product.reference}</div>
+        <div className="service-item-reference">
+          {product.code ? `CATALOGUE CODE ${product.code}` : 'CATALOGUE LISTING'}
+        </div>
         <h4>{product.name}</h4>
-        <p>{product.description}</p>
-        <span className="service-customization">{product.customization}</span>
-        <button className="service-enquire" onClick={() => onEnquire(product, category)}>
-          Enquire Now <ArrowUpRight size={15} />
-        </button>
+        {product.description && <p>{product.description}</p>}
+        {highlights.length > 0 && (
+          <ul className="service-product-highlights">
+            {highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
+          </ul>
+        )}
+        <div className="service-item-actions">
+          <button className="service-details" onClick={() => onDetails(product, category)}>
+            Details <ArrowRight size={14} />
+          </button>
+          <button className="service-enquire" onClick={() => onEnquire(product, category)}>
+            Request a Quote <ArrowUpRight size={15} />
+          </button>
+        </div>
       </div>
     </article>
   );
@@ -499,25 +449,68 @@ function ServiceItemCard({ product, category, onEnquire }) {
 
 function ProductModal({ product, onClose, onQuote }) {
   if (!product) return null;
+  const details = [
+    ...(product.specifications ?? []).map((value) => ['Specification', value]),
+    ...(product.size ?? []).map((value) => ['Size', value]),
+    ...(product.capacity ?? []).map((value) => ['Capacity', value]),
+    ...(product.colours ?? []).map((value) => ['Colour', value]),
+    ...(product.printingTechniques ?? []).map((value) => ['Printing technique', value]),
+    ...(product.bestFor ? [['Best for', product.bestFor]] : []),
+    ...(product.keyBenefit ? [['Key benefit', product.keyBenefit]] : []),
+  ];
+  const sourceVariants = product.bundleVariants?.length > 1
+    ? product.bundleVariants
+    : product.sourceOccurrences?.length > 1
+      ? product.sourceOccurrences
+      : [];
   return (
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <section className="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <button className="modal-close" onClick={onClose} aria-label="Close product details"><X size={19} /></button>
-        <img className="modal-image" src={imageUrl(product.image, 1000, 'max')} alt={`${product.name} sample`} />
+        <img className="modal-image" src={imageUrl(product.image, 1000, 'max')} alt={product.name} />
         <div className="modal-content">
-          <div className="eyebrow">{product.category} <span>·</span> REF. {product.id}</div>
+          <div className="eyebrow">
+            {product.category}
+            {product.code && <><span>·</span> CODE {product.code}</>}
+          </div>
           <h2 id="modal-title">{product.name}</h2>
-          <p>{product.description}</p>
-          <ul className="detail-list">
-            <li><Check size={16} /> Branding options available to discuss</li>
-            <li><Check size={16} /> Bulk order quantities by enquiry</li>
-            <li><CircleHelp size={16} /> Pricing and availability on request</li>
-          </ul>
+          {product.description && <p>{product.description}</p>}
+          {details.length > 0 && (
+            <ul className="detail-list">
+              {details.map(([label, value], index) => (
+                <li key={`${label}-${value}-${index}`}><Check size={16} /><span><strong>{label}:</strong> {value}</span></li>
+              ))}
+            </ul>
+          )}
+          {sourceVariants.length > 1 ? (
+            <div className="bundle-variants">
+              <h3>{product.bundleVariants?.length > 1 ? 'Catalogue bundle variations' : 'Catalogue source variations'}</h3>
+              {sourceVariants.map((variant, index) => (
+                <section className="bundle-variant" key={`${variant.pdfPage}-${index}`}>
+                  <img src={imageUrl(variant.image, 600, 'max')} alt={variant.name || `${product.name} variation ${index + 1}`} loading="lazy" />
+                  <div>
+                    <strong>{variant.name || `Catalogue page ${variant.cataloguePage}`}</strong>
+                    {variant.bundleContents?.length > 0 && <ul>{variant.bundleContents.map((item) => <li key={item}>{item}</li>)}</ul>}
+                  </div>
+                </section>
+              ))}
+            </div>
+          ) : product.bundleContents?.length > 0 ? (
+            <div className="bundle-contents">
+              <h3>Bundle contents</h3>
+              <ul>{product.bundleContents.map((item) => <li key={item}>{item}</li>)}</ul>
+            </div>
+          ) : null}
+          {product.variants?.length > 0 && (
+            <div className="product-variants">
+              <h3>Catalogue variants</h3>
+              <ul>{product.variants.map((variant) => <li key={variant}>{variant}</li>)}</ul>
+            </div>
+          )}
           <div className="modal-actions">
             <button className="button button-gold" onClick={() => onQuote(product)}>Request a Quote <ArrowUpRight size={16} /></button>
             <WhatsAppLink product={product} className="button">Ask on WhatsApp</WhatsAppLink>
           </div>
-          <span className="demo-note">Sample catalogue item · product details to be confirmed</span>
         </div>
       </section>
     </div>
@@ -527,6 +520,9 @@ function ProductModal({ product, onClose, onQuote }) {
 function QuoteForm({ selectedProduct, onClearProduct }) {
   const [status, setStatus] = useState('');
   const [contactError, setContactError] = useState('');
+  const selectedProductLabel = selectedProduct
+    ? `${selectedProduct.name}${selectedProduct.code ? ` (${selectedProduct.code})` : ''}`
+    : '';
   const submit = (event) => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -559,7 +555,7 @@ function QuoteForm({ selectedProduct, onClearProduct }) {
       {status === 'email' && <div className="form-message" role="status">Your email app should open with the enquiry ready to send. If it does not, email <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</div>}
       {selectedProduct && (
         <div className="selected-product">
-          <span>Enquiring about</span><strong>{selectedProduct.name} <small>REF. {selectedProduct.id}</small></strong>
+          <span>Enquiring about</span><strong>{selectedProductLabel}</strong>
           <button type="button" onClick={onClearProduct} aria-label="Remove selected product"><X size={16} /></button>
         </div>
       )}
@@ -573,11 +569,10 @@ function QuoteForm({ selectedProduct, onClearProduct }) {
         <label>Product category
           <select name="category" defaultValue={selectedProduct?.category ?? ''}>
             <option value="">Select a category</option>
-            {selectedProduct?.category && !categories.includes(selectedProduct.category) && <option>{selectedProduct.category}</option>}
-            {categories.slice(1).map((category) => <option key={category}>{category}</option>)}
+            {serviceCategories.map((category) => <option key={category.name}>{category.name}</option>)}
           </select>
         </label>
-        <label>Product name or reference <input name="product" defaultValue={selectedProduct ? `${selectedProduct.name} (${selectedProduct.id})` : ''} placeholder="Product or reference code" /></label>
+        <label>Product name or reference <input name="product" defaultValue={selectedProductLabel} placeholder="Product or catalogue code" /></label>
         <label>Estimated quantity <input type="number" name="quantity" min="1" placeholder="e.g. 100" /></label>
         <label>Required delivery date <input type="date" name="deliveryDate" /></label>
         <label>Preferred contact method
@@ -663,10 +658,7 @@ function QuoteDialog({ selectedProduct, onClose, onClearProduct }) {
 
 function App() {
   const initialPath = window.location.pathname.replace(/\/+$/, '') || '/';
-  const initialCategory = new URLSearchParams(window.location.search).get('category');
-  const initialServiceCategory = serviceCategories.some((category) => category.name === initialCategory)
-    ? initialCategory
-    : 'All items';
+  const initialServiceCategory = resolveServiceCategory(new URLSearchParams(window.location.search).get('category'));
   const initialPage = initialPath === '/' ? 'home' : initialPath === '/products' ? 'products' : 'notFound';
   const [page, setPage] = useState(initialPage);
   const [heroPhraseIndex, setHeroPhraseIndex] = useState(0);
@@ -675,14 +667,9 @@ function App() {
       ? HERO_PHRASES[0]
       : ''
   ));
-  const [category, setCategory] = useState('All products');
-  const [query, setQuery] = useState('');
-  const [sort, setSort] = useState('featured');
-  const [customOnly, setCustomOnly] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [quoteDialogOpen, setQuoteDialogOpen] = useState(false);
   const [detailProduct, setDetailProduct] = useState(null);
-  const [showAll, setShowAll] = useState(false);
   const [serviceSearch, setServiceSearch] = useState('');
   const [activeServiceCategory, setActiveServiceCategory] = useState(
     initialPath === '/products' ? initialServiceCategory : null,
@@ -761,8 +748,9 @@ function App() {
     const groups = [
       ['.hero-copy > *:not(.hero-scroll)', 65],
       ['.intro-aside, .intro-main', 100],
-      ['.catalogue > .section-heading, .catalogue-toolbar, .category-list, .empty-state, .catalogue-more, .catalogue-disclaimer', 60],
-      ['.product-grid > .product-card, .service-item-card', 0],
+      ['.home-services > .section-heading', 60],
+      ['.home-service-card', 55],
+      ['.service-item-card', 0],
       ['.service-items-empty', 0],
       ['.why-title', 0],
       ['.benefits-grid > .benefit', 75],
@@ -814,31 +802,23 @@ function App() {
     };
   }, []);
 
-  const filteredProducts = useMemo(() => {
-    const search = query.trim().toLowerCase();
-    const filtered = products.filter((product) => (
-      (category === 'All products' || product.category === category)
-      && (!customOnly || product.brandable)
-      && (!search || `${product.name} ${product.category} ${product.description} ${product.id}`.toLowerCase().includes(search))
-    ));
-    if (sort === 'az') filtered.sort((a, b) => a.name.localeCompare(b.name));
-    return filtered;
-  }, [category, query, sort, customOnly]);
-
   const openQuote = (product = null, productCategory = null) => {
     setSelectedProduct(product ? { ...product, category: productCategory ?? product.category ?? '' } : null);
     setDetailProduct(null);
     setQuoteDialogOpen(true);
   };
 
+  const openProductDetails = (product, productCategory) => {
+    setDetailProduct({ ...product, category: productCategory });
+  };
+
   const navigateToProducts = (selectedCategory = 'All items') => {
-    const category = serviceCategories.some((item) => item.name === selectedCategory) ? selectedCategory : 'All items';
+    const category = resolveServiceCategory(selectedCategory);
     const search = category === 'All items' ? '' : `?category=${encodeURIComponent(category)}`;
     window.history.pushState({}, '', `/products${search}`);
     setPage('products');
     setActiveServiceCategory(category);
     setServiceSearch('');
-    setShowAll(true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -861,9 +841,7 @@ function App() {
       }
       setPage(pathname === '/' ? 'home' : isProductsPage ? 'products' : 'notFound');
       const requestedCategory = new URLSearchParams(window.location.search).get('category');
-      setActiveServiceCategory(isProductsPage
-        ? (serviceCategories.some((category) => category.name === requestedCategory) ? requestedCategory : 'All items')
-        : null);
+      setActiveServiceCategory(isProductsPage ? resolveServiceCategory(requestedCategory) : null);
       setServiceSearch('');
       window.scrollTo(0, 0);
     };
@@ -879,7 +857,6 @@ function App() {
         : 'Uniline Promotions | Corporate Gifts & Branding Solutions';
   }, [page]);
 
-  const visibleProducts = showAll || query || category !== 'All products' ? filteredProducts : filteredProducts.slice(0, 8);
   const visibleServiceItems = useMemo(() => {
     if (!activeServiceCategory && !serviceSearch.trim()) return [];
     const selectedGroups = activeServiceCategory && activeServiceCategory !== 'All items'
@@ -891,7 +868,20 @@ function App() {
       .filter(({ product }) => {
         if (seen.has(product.id)) return false;
         seen.add(product.id);
-        return !search || `${product.name} ${product.description} ${product.reference} ${product.categories.join(' ')}`.toLowerCase().includes(search);
+        const searchableFields = [
+          product.name,
+          product.code,
+          product.description,
+          ...(product.specifications ?? []),
+          product.category,
+          ...(product.size ?? []),
+          ...(product.capacity ?? []),
+          ...(product.colours ?? []),
+          ...(product.printingTechniques ?? []),
+          ...(product.variants ?? []),
+          ...(product.bundleContents ?? []),
+        ];
+        return !search || searchableFields.filter(Boolean).join(' ').toLowerCase().includes(search);
       });
   }, [activeServiceCategory, serviceSearch]);
 
@@ -914,6 +904,7 @@ function App() {
           search={serviceSearch}
           onSearchChange={setServiceSearch}
           items={visibleServiceItems}
+          onDetails={openProductDetails}
           onEnquire={openQuote}
         />
       ) : page === 'notFound' ? <NotFoundPage /> : (
@@ -982,31 +973,7 @@ function App() {
           </div>
         </section>
 
-        <section className="catalogue section-wrap" id="products">
-          <div className="section-heading">
-            <div><span className="section-index">02 / THE COLLECTION</span><h2>Find your next <span>brand favourite.</span></h2></div>
-            <p>Thoughtful ideas for gifting, team moments, and the everyday. Every item is a starting point for a conversation.</p>
-          </div>
-          <div className="catalogue-toolbar">
-            <div className="searchbox"><Search size={18} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search products..." aria-label="Search products" />{query && <button aria-label="Clear search" onClick={() => setQuery('')}><X size={15} /></button>}</div>
-            <div className="toolbar-right">
-              <label className="custom-filter"><input type="checkbox" checked={customOnly} onChange={(event) => setCustomOnly(event.target.checked)} /> Customizable</label>
-              <label className="sort-select"><span>Sort:</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="featured">Featured</option><option value="az">A—Z</option></select><ChevronDown size={14} /></label>
-            </div>
-          </div>
-          <div className="category-list" aria-label="Product categories">
-            {categories.map((item) => <button key={item} onClick={() => { setCategory(item); setShowAll(false); }} className={category === item ? 'active' : ''}>{item}</button>)}
-          </div>
-          {visibleProducts.length ? (
-            <div className="product-grid">
-              {visibleProducts.map((product) => <ProductCard key={product.id} product={product} onDetails={setDetailProduct} onQuote={openQuote} />)}
-            </div>
-          ) : (
-            <div className="empty-state"><Search size={24} /><h3>No products found</h3><p>Try another search or choose a different category.</p><button className="text-link" onClick={() => { setQuery(''); setCategory('All products'); setCustomOnly(false); }}>Clear filters <ArrowRight size={15} /></button></div>
-          )}
-          {!showAll && !query && category === 'All products' && <button className="button button-outline catalogue-more" onClick={() => setShowAll(true)}>Explore all products <ArrowDown size={15} /></button>}
-          <p className="catalogue-disclaimer">Illustrative sample products only. Availability, specifications, and customization options are subject to confirmation.</p>
-        </section>
+        <HomeServices onSelectCategory={navigateToProducts} />
 
         <section className="why-section section-wrap" id="approach">
           <div className="why-title"><span className="section-index">03 / THE UNILINE APPROACH</span><h2>Thoughtful details.<br /><span>Lasting impressions.</span></h2></div>
@@ -1047,7 +1014,7 @@ function App() {
         <div className="footer-main section-wrap">
           <div className="footer-about"><Brand light /><p>Promotional merchandise and branding solutions for meaningful business connections.</p><div className="footer-social"><WhatsAppLink className="footer-whatsapp">Chat on WhatsApp</WhatsAppLink><a href={`tel:${PHONE}`}><Phone size={14} /> Call us</a></div></div>
           <div className="footer-links"><h4>EXPLORE</h4><a href="/#about">About us</a><a href="/products">Product catalogue</a><a href="/#approach">Corporate solutions</a><button className="footer-link-button" onClick={() => openQuote()}>Request a quote</button></div>
-          <div className="footer-links"><h4>PRODUCTS</h4><a href="/products?category=Corporate%20Gifts%20%26%20Executive%20Gifts">Corporate gifts</a><a href="/products?category=Drinkware">Drinkware</a><a href="/products?category=Bags%20%26%20Promotional%20Merchandise">Bags &amp; merchandise</a><a href="/products?category=Technology%20%26%20Electronic%20Accessories">Tech accessories</a></div>
+          <div className="footer-links"><h4>PRODUCTS</h4><a href="/products?category=Gift%20Sets">Gift sets</a><a href="/products?category=Drinkware">Drinkware</a><a href="/products?category=Bags">Bags</a><a href="/products?category=Gadgets">Gadgets</a></div>
           <div className="footer-contact"><h4>GET IN TOUCH</h4><a href={`tel:${PHONE}`}>{PHONE_DISPLAY} <ArrowUpRight size={13} /></a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><address>310, Zakir Business Centre,<br />Abu Hail, Deira</address></div>
         </div>
         <div className="footer-bottom section-wrap"><span>© {new Date().getFullYear()} Uniline Promotions. All rights reserved.</span><span>Corporate gifts and branding solutions · Dubai, UAE</span><a href="/">Back to top ↑</a></div>

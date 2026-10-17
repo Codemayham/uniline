@@ -1,0 +1,2723 @@
+{
+  "source": "Catalogue 2025-26 PDF.pdf",
+  "images": [
+    {
+      "productId": "printing-360-uv-printing",
+      "category": "Printing",
+      "name": "360 UV Printing",
+      "code": "",
+      "cataloguePage": 4,
+      "pdfPage": 4,
+      "image": "/catalogue/printing/printing-360-uv-printing-p4-262.webp"
+    },
+    {
+      "productId": "printing-d-embossing",
+      "category": "Printing",
+      "name": "D-Embossing",
+      "code": "",
+      "cataloguePage": 4,
+      "pdfPage": 4,
+      "image": "/catalogue/printing/printing-360-uv-printing-p4-262.webp"
+    },
+    {
+      "productId": "printing-embroidery",
+      "category": "Printing",
+      "name": "Embroidery",
+      "code": "",
+      "cataloguePage": 5,
+      "pdfPage": 5,
+      "image": "/catalogue/printing/printing-embroidery-p5-263.webp"
+    },
+    {
+      "productId": "printing-heat-transfer",
+      "category": "Printing",
+      "name": "Heat Transfer",
+      "code": "",
+      "cataloguePage": 5,
+      "pdfPage": 5,
+      "image": "/catalogue/printing/printing-embroidery-p5-263.webp"
+    },
+    {
+      "productId": "printing-dtf-direct-to-film-printing",
+      "category": "Printing",
+      "name": "DTF (Direct-to-Film) Printing",
+      "code": "",
+      "cataloguePage": 5,
+      "pdfPage": 5,
+      "image": "/catalogue/printing/printing-dtf-direct-to-film-printing-p5-264.webp"
+    },
+    {
+      "productId": "printing-epoxy-coating",
+      "category": "Printing",
+      "name": "Epoxy Coating",
+      "code": "",
+      "cataloguePage": 5,
+      "pdfPage": 5,
+      "image": "/catalogue/printing/printing-dtf-direct-to-film-printing-p5-264.webp"
+    },
+    {
+      "productId": "printing-laser-engraving",
+      "category": "Printing",
+      "name": "Laser Engraving",
+      "code": "",
+      "cataloguePage": 6,
+      "pdfPage": 6,
+      "image": "/catalogue/printing/printing-laser-engraving-p6-265.webp"
+    },
+    {
+      "productId": "printing-pad-printing",
+      "category": "Printing",
+      "name": "Pad Printing",
+      "code": "",
+      "cataloguePage": 6,
+      "pdfPage": 6,
+      "image": "/catalogue/printing/printing-pad-printing-p6-266.webp"
+    },
+    {
+      "productId": "printing-laser-marking",
+      "category": "Printing",
+      "name": "Laser Marking",
+      "code": "",
+      "cataloguePage": 6,
+      "pdfPage": 6,
+      "image": "/catalogue/printing/printing-laser-marking-p6-267.webp"
+    },
+    {
+      "productId": "printing-print-cut-die-cutting",
+      "category": "Printing",
+      "name": "Print & Cut (Die-Cutting)",
+      "code": "",
+      "cataloguePage": 6,
+      "pdfPage": 6,
+      "image": "/catalogue/printing/printing-print-cut-die-cutting-p6-268.webp"
+    },
+    {
+      "productId": "printing-round-screen-printing",
+      "category": "Printing",
+      "name": "Round Screen Printing",
+      "code": "",
+      "cataloguePage": 7,
+      "pdfPage": 7,
+      "image": "/catalogue/printing/printing-round-screen-printing-p7-269.webp"
+    },
+    {
+      "productId": "printing-sublimation",
+      "category": "Printing",
+      "name": "Sublimation",
+      "code": "",
+      "cataloguePage": 7,
+      "pdfPage": 7,
+      "image": "/catalogue/printing/printing-sublimation-p7-270.webp"
+    },
+    {
+      "productId": "printing-screen-printing",
+      "category": "Printing",
+      "name": "Screen Printing",
+      "code": "",
+      "cataloguePage": 7,
+      "pdfPage": 7,
+      "image": "/catalogue/printing/printing-round-screen-printing-p7-269.webp"
+    },
+    {
+      "productId": "printing-uv-printing",
+      "category": "Printing",
+      "name": "UV Printing",
+      "code": "",
+      "cataloguePage": 7,
+      "pdfPage": 7,
+      "image": "/catalogue/printing/printing-uv-printing-p7-271.webp"
+    },
+    {
+      "productId": "gadgets-hk0506",
+      "category": "Gadgets",
+      "name": "RETENTIR Magsafe Speaker",
+      "code": "HK0506",
+      "cataloguePage": 9,
+      "pdfPage": 13,
+      "image": "/catalogue/gadgets/gadgets-hk0506-p9-01.webp"
+    },
+    {
+      "productId": "gadgets-hk0507",
+      "category": "Gadgets",
+      "name": "GOVOLT 20,000 mAh Power Bank",
+      "code": "HK0507",
+      "cataloguePage": 10,
+      "pdfPage": 14,
+      "image": "/catalogue/gadgets/gadgets-hk0507-p10-02.webp"
+    },
+    {
+      "productId": "gadgets-hk0508",
+      "category": "Gadgets",
+      "name": "SURGE Keyring Power Bank",
+      "code": "HK0508",
+      "cataloguePage": 11,
+      "pdfPage": 15,
+      "image": "/catalogue/gadgets/gadgets-hk0508-p11-03.webp"
+    },
+    {
+      "productId": "gadgets-hk0509",
+      "category": "Gadgets",
+      "name": "ENERGIQUE Magsafe Power Bank",
+      "code": "HK0509",
+      "cataloguePage": 12,
+      "pdfPage": 16,
+      "image": "/catalogue/gadgets/gadgets-hk0509-p12-04.webp"
+    },
+    {
+      "productId": "gadgets-hk0510",
+      "category": "Gadgets",
+      "name": "MAVERICK Power Bank with Cable",
+      "code": "HK0510",
+      "cataloguePage": 12,
+      "pdfPage": 16,
+      "image": "/catalogue/gadgets/gadgets-hk0510-p12-05.webp"
+    },
+    {
+      "productId": "gadgets-hk0447",
+      "category": "Gadgets",
+      "name": "ELOQUENT Speaker with Wireless Charging",
+      "code": "HK0447",
+      "cataloguePage": 13,
+      "pdfPage": 17,
+      "image": "/catalogue/gadgets/gadgets-hk0447-p13-06.webp"
+    },
+    {
+      "productId": "gadgets-hk0451",
+      "category": "Gadgets",
+      "name": "SALIENT Bamboo Speaker",
+      "code": "HK0451",
+      "cataloguePage": 14,
+      "pdfPage": 18,
+      "image": "/catalogue/gadgets/gadgets-hk0451-p14-07.webp"
+    },
+    {
+      "productId": "gadgets-hk0321",
+      "category": "Gadgets",
+      "name": "YELKHA Bamboo Bluetooth Speaker",
+      "code": "HK0321",
+      "cataloguePage": 15,
+      "pdfPage": 19,
+      "image": "/catalogue/gadgets/gadgets-hk0321-p15-08.webp"
+    },
+    {
+      "productId": "gadgets-hk0420",
+      "category": "Gadgets",
+      "name": "JIGGER Multifunctional Magnetic Wireless Charger",
+      "code": "HK0420",
+      "cataloguePage": 16,
+      "pdfPage": 20,
+      "image": "/catalogue/gadgets/gadgets-hk0420-p16-09.webp"
+    },
+    {
+      "productId": "gadgets-hk0443",
+      "category": "Gadgets",
+      "name": "COZY Wireless Charger with Coffee Warmer",
+      "code": "HK0443",
+      "cataloguePage": 17,
+      "pdfPage": 21,
+      "image": "/catalogue/gadgets/gadgets-hk0443-p17-10.webp"
+    },
+    {
+      "productId": "gadgets-hk0456",
+      "category": "Gadgets",
+      "name": "STAUNCH Fast Charging Stand",
+      "code": "HK0456",
+      "cataloguePage": 17,
+      "pdfPage": 21,
+      "image": "/catalogue/gadgets/gadgets-hk0456-p17-11.webp"
+    },
+    {
+      "productId": "gadgets-hk0448",
+      "category": "Gadgets",
+      "name": "BURLY Power Bank",
+      "code": "HK0448",
+      "cataloguePage": 18,
+      "pdfPage": 22,
+      "image": "/catalogue/gadgets/gadgets-hk0448-p18-12.webp"
+    },
+    {
+      "productId": "gadgets-hk0449",
+      "category": "Gadgets",
+      "name": "COGENT Magsafe Power Bank",
+      "code": "HK0449",
+      "cataloguePage": 18,
+      "pdfPage": 22,
+      "image": "/catalogue/gadgets/gadgets-hk0449-p18-13.webp"
+    },
+    {
+      "productId": "gadgets-hk0333",
+      "category": "Gadgets",
+      "name": "TEHO Wheat Straw + Cork Power Bank",
+      "code": "HK0333",
+      "cataloguePage": 19,
+      "pdfPage": 23,
+      "image": "/catalogue/gadgets/gadgets-hk0333-p19-14.webp"
+    },
+    {
+      "productId": "gadgets-hk0322",
+      "category": "Gadgets",
+      "name": "SNAGE Bamboo Power Bank",
+      "code": "HK0322",
+      "cataloguePage": 19,
+      "pdfPage": 23,
+      "image": "/catalogue/gadgets/gadgets-hk0322-p19-15.webp"
+    },
+    {
+      "productId": "gadgets-hk0423",
+      "category": "Gadgets",
+      "name": "SALVER Travel Adapter",
+      "code": "HK0423",
+      "cataloguePage": 20,
+      "pdfPage": 24,
+      "image": "/catalogue/gadgets/gadgets-hk0423-p20-16.webp"
+    },
+    {
+      "productId": "gadgets-hk0444",
+      "category": "Gadgets",
+      "name": "FERVID Fast Charging Cable",
+      "code": "HK0444",
+      "cataloguePage": 20,
+      "pdfPage": 24,
+      "image": "/catalogue/gadgets/gadgets-hk0444-p20-17.webp"
+    },
+    {
+      "productId": "gadgets-hk0452",
+      "category": "Gadgets",
+      "name": "FERVENT Charging Cable",
+      "code": "HK0452",
+      "cataloguePage": 21,
+      "pdfPage": 25,
+      "image": "/catalogue/gadgets/gadgets-hk0452-p21-18.webp"
+    },
+    {
+      "productId": "gadgets-hk0454",
+      "category": "Gadgets",
+      "name": "JOTTER Bamboo & RPET Mousepad",
+      "code": "HK0454",
+      "cataloguePage": 21,
+      "pdfPage": 25,
+      "image": "/catalogue/gadgets/gadgets-hk0454-p21-19.webp"
+    },
+    {
+      "productId": "gadgets-hk0455",
+      "category": "Gadgets",
+      "name": "KABRIT RPET Mousepad",
+      "code": "HK0455",
+      "cataloguePage": 22,
+      "pdfPage": 26,
+      "image": "/catalogue/gadgets/gadgets-hk0455-p22-20.webp"
+    },
+    {
+      "productId": "gadgets-hk0376",
+      "category": "Gadgets",
+      "name": "GEZI Travel Cable Kit- Black",
+      "code": "HK0376",
+      "cataloguePage": 22,
+      "pdfPage": 26,
+      "image": "/catalogue/gadgets/gadgets-hk0376-p22-21.webp"
+    },
+    {
+      "productId": "gadgets-hk0330",
+      "category": "Gadgets",
+      "name": "EDEN Light up 4 in 1 Charging Cable",
+      "code": "HK0330",
+      "cataloguePage": 23,
+      "pdfPage": 27,
+      "image": "/catalogue/gadgets/gadgets-hk0330-p23-22.webp"
+    },
+    {
+      "productId": "gadgets-hk0331",
+      "category": "Gadgets",
+      "name": "FELIX Light up 4 in 1 Charging Cable",
+      "code": "HK0331",
+      "cataloguePage": 24,
+      "pdfPage": 28,
+      "image": "/catalogue/gadgets/gadgets-hk0331-p24-23.webp"
+    },
+    {
+      "productId": "gadgets-hk0407",
+      "category": "Gadgets",
+      "name": "SHYNU Bamboo Travel Tech Kit",
+      "code": "HK0407",
+      "cataloguePage": 24,
+      "pdfPage": 28,
+      "image": "/catalogue/gadgets/gadgets-hk0407-p24-24.webp"
+    },
+    {
+      "productId": "gadgets-hk0493",
+      "category": "Gadgets",
+      "name": "GEEK Multifunctional Magnetic Wireless Charger",
+      "code": "HK0493",
+      "cataloguePage": 25,
+      "pdfPage": 29,
+      "image": "/catalogue/gadgets/gadgets-hk0493-p25-25.webp"
+    },
+    {
+      "productId": "gadgets-hk0472",
+      "category": "Gadgets",
+      "name": "VIGOR Power Bank Organiser",
+      "code": "HK0472",
+      "cataloguePage": 26,
+      "pdfPage": 30,
+      "image": "/catalogue/gadgets/gadgets-hk0472-p26-26.webp"
+    },
+    {
+      "productId": "gadgets-hk0494",
+      "category": "Gadgets",
+      "name": "ARDUOUS Magsafe Notebook",
+      "code": "HK0494",
+      "cataloguePage": 26,
+      "pdfPage": 30,
+      "image": "/catalogue/gadgets/gadgets-hk0494-p26-27.webp"
+    },
+    {
+      "productId": "drinkware-hk0430",
+      "category": "Drinkware",
+      "name": "SIERRA Vaccum Tumbler",
+      "code": "HK0430",
+      "cataloguePage": 27,
+      "pdfPage": 35,
+      "image": "/catalogue/drinkware/drinkware-hk0430-p27-01.webp"
+    },
+    {
+      "productId": "drinkware-hk468",
+      "category": "Drinkware",
+      "name": "BONNY Straw Tumbler",
+      "code": "HK468",
+      "cataloguePage": 27,
+      "pdfPage": 35,
+      "image": "/catalogue/drinkware/drinkware-hk0430-p27-01.webp"
+    },
+    {
+      "productId": "drinkware-hk0372",
+      "category": "Drinkware",
+      "name": "TELEIOS Tumbler with Silicon Grip",
+      "code": "HK0372",
+      "cataloguePage": 28,
+      "pdfPage": 36,
+      "image": "/catalogue/drinkware/drinkware-hk0372-p28-03.webp"
+    },
+    {
+      "productId": "drinkware-hk0284",
+      "category": "Drinkware",
+      "name": "DIARCE Matte Tumbler",
+      "code": "HK0284",
+      "cataloguePage": 29,
+      "pdfPage": 37,
+      "image": "/catalogue/drinkware/drinkware-hk0284-p29-04.webp"
+    },
+    {
+      "productId": "drinkware-hk0281",
+      "category": "Drinkware",
+      "name": "SLEEK 360 ml Tumbler",
+      "code": "HK0281",
+      "cataloguePage": 29,
+      "pdfPage": 37,
+      "image": "/catalogue/drinkware/drinkware-hk0281-p29-05.webp"
+    },
+    {
+      "productId": "drinkware-hk0296",
+      "category": "Drinkware",
+      "name": "DENTRO Tumbler with Cork Bottom",
+      "code": "HK0296",
+      "cataloguePage": 30,
+      "pdfPage": 38,
+      "image": "/catalogue/drinkware/drinkware-hk0296-p30-06.webp"
+    },
+    {
+      "productId": "drinkware-hk0290",
+      "category": "Drinkware",
+      "name": "CIRO Glass Tumbler",
+      "code": "HK0290",
+      "cataloguePage": 30,
+      "pdfPage": 38,
+      "image": "/catalogue/drinkware/drinkware-hk0290-p30-07.webp"
+    },
+    {
+      "productId": "drinkware-hk0421",
+      "category": "Drinkware",
+      "name": "RUMMER Wheat Straw Cork Bamboo Tumbler",
+      "code": "HK0421",
+      "cataloguePage": 31,
+      "pdfPage": 39,
+      "image": "/catalogue/drinkware/drinkware-hk0421-p31-08.webp"
+    },
+    {
+      "productId": "drinkware-hk0422",
+      "category": "Drinkware",
+      "name": "CHALICE Wheat Straw Silicon Lid Tumbler",
+      "code": "HK0422",
+      "cataloguePage": 31,
+      "pdfPage": 39,
+      "image": "/catalogue/drinkware/drinkware-hk0422-p31-09.webp"
+    },
+    {
+      "productId": "drinkware-hk0431-hk0432",
+      "category": "Drinkware",
+      "name": "CRUET Recyled Steel Bottle",
+      "code": "HK0431 / HK0432",
+      "cataloguePage": 32,
+      "pdfPage": 40,
+      "image": "/catalogue/drinkware/drinkware-hk0431-p32-10.webp"
+    },
+    {
+      "productId": "drinkware-hk0431-hk0432",
+      "category": "Drinkware",
+      "name": "CRUET Recyled Steel Bottle",
+      "code": "HK0431 / HK0432",
+      "cataloguePage": 32,
+      "pdfPage": 40,
+      "image": "/catalogue/drinkware/drinkware-hk0432-p32-11.webp"
+    },
+    {
+      "productId": "drinkware-hk0433",
+      "category": "Drinkware",
+      "name": "DECANTER Sports Bottle",
+      "code": "HK0433",
+      "cataloguePage": 33,
+      "pdfPage": 41,
+      "image": "/catalogue/drinkware/drinkware-hk0433-p33-12.webp"
+    },
+    {
+      "productId": "drinkware-hk0429",
+      "category": "Drinkware",
+      "name": "QUENCH Vaccum Bottle",
+      "code": "HK0429",
+      "cataloguePage": 33,
+      "pdfPage": 41,
+      "image": "/catalogue/drinkware/drinkware-hk0429-p33-13.webp"
+    },
+    {
+      "productId": "drinkware-hk0467",
+      "category": "Drinkware",
+      "name": "BRAWNY Magnetic lid stainless steel bottle",
+      "code": "HK0467",
+      "cataloguePage": 34,
+      "pdfPage": 42,
+      "image": "/catalogue/drinkware/drinkware-hk0467-p34-14.webp"
+    },
+    {
+      "productId": "drinkware-hk0289",
+      "category": "Drinkware",
+      "name": "DREW Double Wall Glass Bottle",
+      "code": "HK0289",
+      "cataloguePage": 35,
+      "pdfPage": 43,
+      "image": "/catalogue/drinkware/drinkware-hk0289-p35-15.webp"
+    },
+    {
+      "productId": "drinkware-hk0239",
+      "category": "Drinkware",
+      "name": "DIAFANI Transparent Glass Bottle",
+      "code": "HK0239",
+      "cataloguePage": 35,
+      "pdfPage": 43,
+      "image": "/catalogue/drinkware/drinkware-hk0239-p35-16.webp"
+    },
+    {
+      "productId": "drinkware-hk0287",
+      "category": "Drinkware",
+      "name": "ARBRE Bamboo Flask",
+      "code": "HK0287",
+      "cataloguePage": 36,
+      "pdfPage": 44,
+      "image": "/catalogue/drinkware/drinkware-hk0287-p36-17.webp"
+    },
+    {
+      "productId": "drinkware-hk0091",
+      "category": "Drinkware",
+      "name": "ATSALI Matte Thermal Bottle",
+      "code": "HK0091",
+      "cataloguePage": 37,
+      "pdfPage": 45,
+      "image": "/catalogue/drinkware/drinkware-hk0091-p37-18.webp"
+    },
+    {
+      "productId": "drinkware-hk0092",
+      "category": "Drinkware",
+      "name": "DYNATO Glossy Thermal Bottle",
+      "code": "HK0092",
+      "cataloguePage": 37,
+      "pdfPage": 45,
+      "image": "/catalogue/drinkware/drinkware-hk0092-p37-19.webp"
+    },
+    {
+      "productId": "drinkware-hk0211",
+      "category": "Drinkware",
+      "name": "SFODRI Stainless Steel Bamboo Flask",
+      "code": "HK0211",
+      "cataloguePage": 38,
+      "pdfPage": 46,
+      "image": "/catalogue/drinkware/drinkware-hk0211-p38-20.webp"
+    },
+    {
+      "productId": "drinkware-hk0090",
+      "category": "Drinkware",
+      "name": "PEZOPORIA Aluminium Bottle",
+      "code": "HK0090",
+      "cataloguePage": 38,
+      "pdfPage": 46,
+      "image": "/catalogue/drinkware/drinkware-hk0090-p38-21.webp"
+    },
+    {
+      "productId": "drinkware-hk0285",
+      "category": "Drinkware",
+      "name": "TECHIE Thermometer Bottle",
+      "code": "HK0285",
+      "cataloguePage": 39,
+      "pdfPage": 47,
+      "image": "/catalogue/drinkware/drinkware-hk0285-p39-22.webp"
+    },
+    {
+      "productId": "drinkware-hk0442",
+      "category": "Drinkware",
+      "name": "HYDRO Bamboo Base Mug",
+      "code": "HK0442",
+      "cataloguePage": 40,
+      "pdfPage": 48,
+      "image": "/catalogue/drinkware/drinkware-hk0442-p40-23.webp"
+    },
+    {
+      "productId": "drinkware-hk0434",
+      "category": "Drinkware",
+      "name": "CANNIKIN Vaccum Travel Mug",
+      "code": "HK0434",
+      "cataloguePage": 41,
+      "pdfPage": 49,
+      "image": "/catalogue/drinkware/drinkware-hk0434-p41-24.webp"
+    },
+    {
+      "productId": "drinkware-hk0101",
+      "category": "Drinkware",
+      "name": "IREMI Inner Colour Sublimation Mug",
+      "code": "HK0101",
+      "cataloguePage": 42,
+      "pdfPage": 50,
+      "image": "/catalogue/drinkware/drinkware-hk0101-p42-25.webp"
+    },
+    {
+      "productId": "drinkware-hk0098",
+      "category": "Drinkware",
+      "name": "ZESTO Full Colour Mug - Glossy",
+      "code": "HK0098",
+      "cataloguePage": 42,
+      "pdfPage": 50,
+      "image": "/catalogue/drinkware/drinkware-hk0098-p42-26.webp"
+    },
+    {
+      "productId": "drinkware-hk0098",
+      "category": "Drinkware",
+      "name": "ZESTO Full Colour Mug - Matte",
+      "code": "HK0098",
+      "cataloguePage": 43,
+      "pdfPage": 51,
+      "image": "/catalogue/drinkware/drinkware-hk0098-p43-27.webp"
+    },
+    {
+      "productId": "drinkware-hk0295",
+      "category": "Drinkware",
+      "name": "FYSIS Ceramic Mug with Cork Bottom",
+      "code": "HK0295",
+      "cataloguePage": 43,
+      "pdfPage": 51,
+      "image": "/catalogue/drinkware/drinkware-hk0295-p43-28.webp"
+    },
+    {
+      "productId": "drinkware-hk0099",
+      "category": "Drinkware",
+      "name": "AGNA Sublimation Mug",
+      "code": "HK0099",
+      "cataloguePage": 44,
+      "pdfPage": 52,
+      "image": "/catalogue/drinkware/drinkware-hk0099-p44-29.webp"
+    },
+    {
+      "productId": "drinkware-hk0103-hk0104",
+      "category": "Drinkware",
+      "name": "KURK Cork Coaster",
+      "code": "HK0103 / HK0104",
+      "cataloguePage": 44,
+      "pdfPage": 52,
+      "image": "/catalogue/drinkware/drinkware-hk0103-hk0104-p44-30.webp"
+    },
+    {
+      "productId": "bags-hk0513",
+      "category": "Bags",
+      "name": "TREGO Promotional Backpack",
+      "code": "HK0513",
+      "cataloguePage": 45,
+      "pdfPage": 57,
+      "image": "/catalogue/bags/bags-hk0513-p45-01.webp"
+    },
+    {
+      "productId": "bags-hk0437",
+      "category": "Bags",
+      "name": "KNAPSACK Laptop Backpack",
+      "code": "HK0437",
+      "cataloguePage": 46,
+      "pdfPage": 58,
+      "image": "/catalogue/bags/bags-hk0437-p46-02.webp"
+    },
+    {
+      "productId": "bags-hk0438",
+      "category": "Bags",
+      "name": "TREK Laptop Backpack",
+      "code": "HK0438",
+      "cataloguePage": 47,
+      "pdfPage": 59,
+      "image": "/catalogue/bags/bags-hk0438-p47-03.webp"
+    },
+    {
+      "productId": "bags-hk0347",
+      "category": "Bags",
+      "name": "EVANDER Laptop Backpack",
+      "code": "HK0347",
+      "cataloguePage": 48,
+      "pdfPage": 60,
+      "image": "/catalogue/bags/bags-hk0347-p48-04.webp"
+    },
+    {
+      "productId": "bags-hk0428",
+      "category": "Bags",
+      "name": "CRYPTO Leather Fabric Backpack",
+      "code": "HK0428",
+      "cataloguePage": 48,
+      "pdfPage": 60,
+      "image": "/catalogue/bags/bags-hk0428-p48-05.webp"
+    },
+    {
+      "productId": "bags-hk0512",
+      "category": "Bags",
+      "name": "VELTO Laptop Backpack",
+      "code": "HK0512",
+      "cataloguePage": 49,
+      "pdfPage": 61,
+      "image": "/catalogue/bags/bags-hk0512-p49-06.webp"
+    },
+    {
+      "productId": "bags-hk0435",
+      "category": "Bags",
+      "name": "CONTRA Anti-theft Backpack",
+      "code": "HK0435",
+      "cataloguePage": 50,
+      "pdfPage": 62,
+      "image": "/catalogue/bags/bags-hk0435-p50-07.webp"
+    },
+    {
+      "productId": "bags-hk0436",
+      "category": "Bags",
+      "name": "URBANE Laptop Backpack",
+      "code": "HK0436",
+      "cataloguePage": 50,
+      "pdfPage": 62,
+      "image": "/catalogue/bags/bags-hk0436-p50-08.webp"
+    },
+    {
+      "productId": "bags-hk0465",
+      "category": "Bags",
+      "name": "ICONIC 2 Handle Backpack",
+      "code": "HK0465",
+      "cataloguePage": 51,
+      "pdfPage": 63,
+      "image": "/catalogue/bags/bags-hk0465-p51-09.webp"
+    },
+    {
+      "productId": "bags-hk0439",
+      "category": "Bags",
+      "name": "RANGER Laptop Backpack",
+      "code": "HK0439",
+      "cataloguePage": 52,
+      "pdfPage": 64,
+      "image": "/catalogue/bags/bags-hk0439-p52-10.webp"
+    },
+    {
+      "productId": "bags-hk0514",
+      "category": "Bags",
+      "name": "PIONEER Laptop Sleeve",
+      "code": "HK0514",
+      "cataloguePage": 53,
+      "pdfPage": 65,
+      "image": "/catalogue/bags/bags-hk0514-p53-11.webp"
+    },
+    {
+      "productId": "bags-hk0505",
+      "category": "Bags",
+      "name": "LURO Travel Pouch",
+      "code": "HK0505",
+      "cataloguePage": 54,
+      "pdfPage": 66,
+      "image": "/catalogue/bags/bags-hk0505-p54-12.webp"
+    },
+    {
+      "productId": "bags-hk0300",
+      "category": "Bags",
+      "name": "MENJAR Lunch Bag",
+      "code": "HK0300",
+      "cataloguePage": 54,
+      "pdfPage": 66,
+      "image": "/catalogue/bags/bags-hk0300-p54-13.webp"
+    },
+    {
+      "productId": "bags-hk0441",
+      "category": "Bags",
+      "name": "KEISTER RPET Cooler Bag",
+      "code": "HK0441",
+      "cataloguePage": 55,
+      "pdfPage": 67,
+      "image": "/catalogue/bags/bags-hk0441-p55-14.webp"
+    },
+    {
+      "productId": "bags-hk0078",
+      "category": "Bags",
+      "name": "LETTIE Full Colour Nonwoven Bag",
+      "code": "HK0078",
+      "cataloguePage": 56,
+      "pdfPage": 68,
+      "image": "/catalogue/bags/bags-hk0078-p56-15.webp"
+    },
+    {
+      "productId": "bags-hk0076",
+      "category": "Bags",
+      "name": "TRIFT Nonwoven Vertical Bag",
+      "code": "HK0076",
+      "cataloguePage": 57,
+      "pdfPage": 69,
+      "image": "/catalogue/bags/bags-hk0076-p57-16.webp"
+    },
+    {
+      "productId": "bags-hk0073",
+      "category": "Bags",
+      "name": "DEIA Sublimation Nonwoven Bag",
+      "code": "HK0073",
+      "cataloguePage": 57,
+      "pdfPage": 69,
+      "image": "/catalogue/bags/bags-hk0073-p57-17.webp"
+    },
+    {
+      "productId": "bags-hk0074",
+      "category": "Bags",
+      "name": "ALAIA Nonwoven Bag",
+      "code": "HK0074",
+      "cataloguePage": 58,
+      "pdfPage": 70,
+      "image": "/catalogue/bags/bags-hk0074-p58-18.webp"
+    },
+    {
+      "productId": "bags-hk0052",
+      "category": "Bags",
+      "name": "GEINA Jute Base Cotton Bag",
+      "code": "HK0052",
+      "cataloguePage": 58,
+      "pdfPage": 70,
+      "image": "/catalogue/bags/bags-hk0052-p58-19.webp"
+    },
+    {
+      "productId": "bags-hk0047",
+      "category": "Bags",
+      "name": "AIOFE Jute Canvas Bag",
+      "code": "HK0047",
+      "cataloguePage": 59,
+      "pdfPage": 71,
+      "image": "/catalogue/bags/bags-hk0047-p59-20.webp"
+    },
+    {
+      "productId": "bags-hk0044",
+      "category": "Bags",
+      "name": "ZARAFET Small Jute Bag",
+      "code": "HK0044",
+      "cataloguePage": 59,
+      "pdfPage": 71,
+      "image": "/catalogue/bags/bags-hk0044-p59-21.webp"
+    },
+    {
+      "productId": "bags-hk0049",
+      "category": "Bags",
+      "name": "TRUCS Jute Bag with Canvas Pocket",
+      "code": "HK0049",
+      "cataloguePage": 60,
+      "pdfPage": 72,
+      "image": "/catalogue/bags/bags-hk0049-p60-22.webp"
+    },
+    {
+      "productId": "bags-hk0386",
+      "category": "Bags",
+      "name": "COUTURE Jute Bag",
+      "code": "HK0386",
+      "cataloguePage": 61,
+      "pdfPage": 73,
+      "image": "/catalogue/bags/bags-hk0386-p61-23.webp"
+    },
+    {
+      "productId": "bags-hk0262",
+      "category": "Bags",
+      "name": "TATE Canvas Bag",
+      "code": "HK0262",
+      "cataloguePage": 62,
+      "pdfPage": 74,
+      "image": "/catalogue/bags/bags-hk0262-p62-24.webp"
+    },
+    {
+      "productId": "bags-hk0043",
+      "category": "Bags",
+      "name": "COSES 2 Tone Jute Bag",
+      "code": "HK0043",
+      "cataloguePage": 62,
+      "pdfPage": 74,
+      "image": "/catalogue/bags/bags-hk0043-p62-25.webp"
+    },
+    {
+      "productId": "bags-hk0410",
+      "category": "Bags",
+      "name": "TERROS Cotton Bag",
+      "code": "HK0410",
+      "cataloguePage": 63,
+      "pdfPage": 75,
+      "image": "/catalogue/bags/bags-hk0410-p63-26.webp"
+    },
+    {
+      "productId": "bags-hk0048",
+      "category": "Bags",
+      "name": "ASTRID Canvas Bag",
+      "code": "HK0048",
+      "cataloguePage": 63,
+      "pdfPage": 75,
+      "image": "/catalogue/bags/bags-hk0410-p63-26.webp"
+    },
+    {
+      "productId": "bags-hk0072",
+      "category": "Bags",
+      "name": "TWINE Draw String Bag with Leather Corner",
+      "code": "HK0072",
+      "cataloguePage": 64,
+      "pdfPage": 76,
+      "image": "/catalogue/bags/bags-hk0072-p64-28.webp"
+    },
+    {
+      "productId": "bags-hk0046",
+      "category": "Bags",
+      "name": "THONG String Bag with Rope",
+      "code": "HK0046",
+      "cataloguePage": 64,
+      "pdfPage": 76,
+      "image": "/catalogue/bags/bags-hk0046-p64-29.webp"
+    },
+    {
+      "productId": "stationery-hk0030",
+      "category": "Stationery",
+      "name": "MIKA A5 PU Fabric Notebook",
+      "code": "HK0030",
+      "cataloguePage": 65,
+      "pdfPage": 81,
+      "image": "/catalogue/stationery/stationery-hk0030-p65-01.webp"
+    },
+    {
+      "productId": "stationery-hk0473",
+      "category": "Stationery",
+      "name": "MUNIMENTS PU Notebook",
+      "code": "HK0473",
+      "cataloguePage": 65,
+      "pdfPage": 81,
+      "image": "/catalogue/stationery/stationery-hk0473-p65-02.webp"
+    },
+    {
+      "productId": "stationery-hk0031",
+      "category": "Stationery",
+      "name": "ALINA A5 PU Special Notebook",
+      "code": "HK0031",
+      "cataloguePage": 66,
+      "pdfPage": 82,
+      "image": "/catalogue/stationery/stationery-hk0031-p66-03.webp"
+    },
+    {
+      "productId": "stationery-hk0472",
+      "category": "Stationery",
+      "name": "VIGOR Power Bank Organiser",
+      "code": "HK0472",
+      "cataloguePage": 67,
+      "pdfPage": 83,
+      "image": "/catalogue/stationery/stationery-hk0472-p67-04.webp"
+    },
+    {
+      "productId": "stationery-hk0493",
+      "category": "Stationery",
+      "name": "GEEK Multifunctional Magnetic Wireless Charger",
+      "code": "HK0493",
+      "cataloguePage": 68,
+      "pdfPage": 84,
+      "image": "/catalogue/stationery/stationery-hk0493-p68-05.webp"
+    },
+    {
+      "productId": "stationery-hk0494",
+      "category": "Stationery",
+      "name": "ARDUOUS Magsafe Notebook",
+      "code": "HK0494",
+      "cataloguePage": 69,
+      "pdfPage": 85,
+      "image": "/catalogue/stationery/stationery-hk0494-p69-06.webp"
+    },
+    {
+      "productId": "stationery-hk0417",
+      "category": "Stationery",
+      "name": "MEMOIR Two Tone Notebook",
+      "code": "HK0417",
+      "cataloguePage": 70,
+      "pdfPage": 86,
+      "image": "/catalogue/stationery/stationery-hk0417-p70-07.webp"
+    },
+    {
+      "productId": "stationery-hk0469",
+      "category": "Stationery",
+      "name": "STOUT Bamboo Notebook",
+      "code": "HK0469",
+      "cataloguePage": 71,
+      "pdfPage": 87,
+      "image": "/catalogue/stationery/stationery-hk0469-p71-08.webp"
+    },
+    {
+      "productId": "stationery-hk0471",
+      "category": "Stationery",
+      "name": "AFFICHE Mini Bamboo Notepad",
+      "code": "HK0471",
+      "cataloguePage": 71,
+      "pdfPage": 87,
+      "image": "/catalogue/stationery/stationery-hk0471-p71-09.webp"
+    },
+    {
+      "productId": "stationery-hk0445",
+      "category": "Stationery",
+      "name": "ECOFLEX A6 RPET Leather Notebook",
+      "code": "HK0445",
+      "cataloguePage": 72,
+      "pdfPage": 88,
+      "image": "/catalogue/stationery/stationery-hk0445-p72-10.webp"
+    },
+    {
+      "productId": "stationery-hk0446",
+      "category": "Stationery",
+      "name": "ECOFLEX A5 RPET Leather Notebook",
+      "code": "HK0446",
+      "cataloguePage": 72,
+      "pdfPage": 88,
+      "image": "/catalogue/stationery/stationery-hk0446-p72-11.webp"
+    },
+    {
+      "productId": "stationery-hk0470",
+      "category": "Stationery",
+      "name": "GAZETTE Felt Notebook",
+      "code": "HK0470",
+      "cataloguePage": 73,
+      "pdfPage": 89,
+      "image": "/catalogue/stationery/stationery-hk0470-p73-12.webp"
+    },
+    {
+      "productId": "stationery-hk0107",
+      "category": "Stationery",
+      "name": "LIDSKY A5 Cork Notebook",
+      "code": "HK0107",
+      "cataloguePage": 74,
+      "pdfPage": 90,
+      "image": "/catalogue/stationery/stationery-hk0107-p74-13.webp"
+    },
+    {
+      "productId": "stationery-hk0396",
+      "category": "Stationery",
+      "name": "ZURI PU Fabric Notebook",
+      "code": "HK0396",
+      "cataloguePage": 74,
+      "pdfPage": 90,
+      "image": "/catalogue/stationery/stationery-hk0396-p74-14.webp"
+    },
+    {
+      "productId": "stationery-hk0036",
+      "category": "Stationery",
+      "name": "ZOSIA A5 PU Notebook",
+      "code": "HK0036",
+      "cataloguePage": 75,
+      "pdfPage": 91,
+      "image": "/catalogue/stationery/stationery-hk0036-p75-15.webp"
+    },
+    {
+      "productId": "stationery-hk0495",
+      "category": "Stationery",
+      "name": "FROSTY Kilo Ball Pen",
+      "code": "HK0495",
+      "cataloguePage": 76,
+      "pdfPage": 92,
+      "image": "/catalogue/stationery/stationery-hk0495-p76-16.webp"
+    },
+    {
+      "productId": "stationery-hk0498",
+      "category": "Stationery",
+      "name": "COBRA Klio Softgrip Pen",
+      "code": "HK0498",
+      "cataloguePage": 77,
+      "pdfPage": 93,
+      "image": "/catalogue/stationery/stationery-hk0498-p77-17.webp"
+    },
+    {
+      "productId": "stationery-hk0501",
+      "category": "Stationery",
+      "name": "ZENO HG Klio High Gloss Pen",
+      "code": "HK0501",
+      "cataloguePage": 77,
+      "pdfPage": 93,
+      "image": "/catalogue/stationery/stationery-hk0501-p77-18.webp"
+    },
+    {
+      "productId": "stationery-hk0499",
+      "category": "Stationery",
+      "name": "TRIAS HG Klio High Gloss Pen",
+      "code": "HK0499",
+      "cataloguePage": 78,
+      "pdfPage": 94,
+      "image": "/catalogue/stationery/stationery-hk0499-p78-19.webp"
+    },
+    {
+      "productId": "stationery-hk0502",
+      "category": "Stationery",
+      "name": "ZENO RE Klio Recycling",
+      "code": "HK0502",
+      "cataloguePage": 79,
+      "pdfPage": 95,
+      "image": "/catalogue/stationery/stationery-hk0502-p79-20.webp"
+    },
+    {
+      "productId": "stationery-hk0497",
+      "category": "Stationery",
+      "name": "JONA Klio High Gloss Pen",
+      "code": "HK0497",
+      "cataloguePage": 80,
+      "pdfPage": 96,
+      "image": "/catalogue/stationery/stationery-hk0497-p80-21.webp"
+    },
+    {
+      "productId": "stationery-hk0460",
+      "category": "Stationery",
+      "name": "EKRI Roller Pen",
+      "code": "HK0460",
+      "cataloguePage": 80,
+      "pdfPage": 96,
+      "image": "/catalogue/stationery/stationery-hk0497-p80-21.webp"
+    },
+    {
+      "productId": "stationery-hk0461",
+      "category": "Stationery",
+      "name": "SKRIVE Ball Pen",
+      "code": "HK0461",
+      "cataloguePage": 81,
+      "pdfPage": 97,
+      "image": "/catalogue/stationery/stationery-hk0461-p81-23.webp"
+    },
+    {
+      "productId": "stationery-hk0462",
+      "category": "Stationery",
+      "name": "YAZMA Roller Pen",
+      "code": "HK0462",
+      "cataloguePage": 82,
+      "pdfPage": 98,
+      "image": "/catalogue/stationery/stationery-hk0462-p82-24.webp"
+    },
+    {
+      "productId": "stationery-hk0459",
+      "category": "Stationery",
+      "name": "BIRO Ball Pen",
+      "code": "HK0459",
+      "cataloguePage": 82,
+      "pdfPage": 98,
+      "image": "/catalogue/stationery/stationery-hk0459-p82-25.webp"
+    },
+    {
+      "productId": "stationery-hk0477",
+      "category": "Stationery",
+      "name": "TOMES Twist Action Ball Pen",
+      "code": "HK0477",
+      "cataloguePage": 83,
+      "pdfPage": 99,
+      "image": "/catalogue/stationery/stationery-hk0477-p83-26.webp"
+    },
+    {
+      "productId": "stationery-hk0484",
+      "category": "Stationery",
+      "name": "SHEEN Metal Pen",
+      "code": "HK0484",
+      "cataloguePage": 83,
+      "pdfPage": 99,
+      "image": "/catalogue/stationery/stationery-hk0484-p83-27.webp"
+    },
+    {
+      "productId": "stationery-hk0483",
+      "category": "Stationery",
+      "name": "INGOT Metal Pen",
+      "code": "HK0483",
+      "cataloguePage": 84,
+      "pdfPage": 100,
+      "image": "/catalogue/stationery/stationery-hk0483-p84-28.webp"
+    },
+    {
+      "productId": "stationery-hk0485",
+      "category": "Stationery",
+      "name": "FLEX Metal Pen",
+      "code": "HK0485",
+      "cataloguePage": 85,
+      "pdfPage": 101,
+      "image": "/catalogue/stationery/stationery-hk0485-p85-29.webp"
+    },
+    {
+      "productId": "stationery-hk0128",
+      "category": "Stationery",
+      "name": "LASZLO Rubberized Metal Pen",
+      "code": "HK0128",
+      "cataloguePage": 85,
+      "pdfPage": 101,
+      "image": "/catalogue/stationery/stationery-hk0128-p85-30.webp"
+    },
+    {
+      "productId": "stationery-hk0458",
+      "category": "Stationery",
+      "name": "OEUVRE Twist Action Pen",
+      "code": "HK0458",
+      "cataloguePage": 86,
+      "pdfPage": 102,
+      "image": "/catalogue/stationery/stationery-hk0458-p86-31.webp"
+    },
+    {
+      "productId": "stationery-hk0119",
+      "category": "Stationery",
+      "name": "SLANK Aluminum Slim Pen",
+      "code": "HK0119",
+      "cataloguePage": 86,
+      "pdfPage": 102,
+      "image": "/catalogue/stationery/stationery-hk0119-p86-32.webp"
+    },
+    {
+      "productId": "stationery-hk0124",
+      "category": "Stationery",
+      "name": "VERENA Metal Pen Model 8",
+      "code": "HK0124",
+      "cataloguePage": 87,
+      "pdfPage": 103,
+      "image": "/catalogue/stationery/stationery-hk0124-p87-33.webp"
+    },
+    {
+      "productId": "stationery-hk0391",
+      "category": "Stationery",
+      "name": "BELLE Metal Pen Model 15",
+      "code": "HK0391",
+      "cataloguePage": 87,
+      "pdfPage": 103,
+      "image": "/catalogue/stationery/stationery-hk0391-p87-34.webp"
+    },
+    {
+      "productId": "stationery-hk0380",
+      "category": "Stationery",
+      "name": "AOIFE Silicon Coated Metal Pen",
+      "code": "HK0380",
+      "cataloguePage": 88,
+      "pdfPage": 104,
+      "image": "/catalogue/stationery/stationery-hk0380-p88-35.webp"
+    },
+    {
+      "productId": "stationery-hk0394",
+      "category": "Stationery",
+      "name": "BONNIE Metal Pen Model 18",
+      "code": "HK0394",
+      "cataloguePage": 88,
+      "pdfPage": 104,
+      "image": "/catalogue/stationery/stationery-hk0380-p88-35.webp"
+    },
+    {
+      "productId": "stationery-hk0393",
+      "category": "Stationery",
+      "name": "CAOIMHE Metal Pen Model 17",
+      "code": "HK0393",
+      "cataloguePage": 89,
+      "pdfPage": 105,
+      "image": "/catalogue/stationery/stationery-hk0393-p89-37.webp"
+    },
+    {
+      "productId": "stationery-hk0395",
+      "category": "Stationery",
+      "name": "RUMI Metal Pen Model 19",
+      "code": "HK0395",
+      "cataloguePage": 89,
+      "pdfPage": 105,
+      "image": "/catalogue/stationery/stationery-hk0395-p89-38.webp"
+    },
+    {
+      "productId": "stationery-hk0520",
+      "category": "Stationery",
+      "name": "NEXPEN Stylus Metal Pen",
+      "code": "HK0520",
+      "cataloguePage": 90,
+      "pdfPage": 106,
+      "image": "/catalogue/stationery/stationery-hk0520-p90-39.webp"
+    },
+    {
+      "productId": "stationery-hk0486",
+      "category": "Stationery",
+      "name": "STIFT Metal Pen",
+      "code": "HK0486",
+      "cataloguePage": 91,
+      "pdfPage": 107,
+      "image": "/catalogue/stationery/stationery-hk0486-p91-40.webp"
+    },
+    {
+      "productId": "stationery-hk0408",
+      "category": "Stationery",
+      "name": "SKRIFT Plastic Pen Model 8",
+      "code": "HK0408",
+      "cataloguePage": 92,
+      "pdfPage": 108,
+      "image": "/catalogue/stationery/stationery-hk0408-p92-41.webp"
+    },
+    {
+      "productId": "stationery-hk0409",
+      "category": "Stationery",
+      "name": "HUGH Plastic Pen Model 9",
+      "code": "HK0409",
+      "cataloguePage": 92,
+      "pdfPage": 108,
+      "image": "/catalogue/stationery/stationery-hk0409-p92-42.webp"
+    },
+    {
+      "productId": "stationery-hk0488",
+      "category": "Stationery",
+      "name": "SCRAWL Plastic Rubber Finish Pen",
+      "code": "HK0488",
+      "cataloguePage": 93,
+      "pdfPage": 109,
+      "image": "/catalogue/stationery/stationery-hk0488-p93-43.webp"
+    },
+    {
+      "productId": "stationery-hk0424",
+      "category": "Stationery",
+      "name": "KEEN Metal Ball Pen with Bamboo Button",
+      "code": "HK0424",
+      "cataloguePage": 93,
+      "pdfPage": 109,
+      "image": "/catalogue/stationery/stationery-hk0424-p93-44.webp"
+    },
+    {
+      "productId": "stationery-hk0457",
+      "category": "Stationery",
+      "name": "STANIC Recycled Ball Pen",
+      "code": "HK0457",
+      "cataloguePage": 94,
+      "pdfPage": 110,
+      "image": "/catalogue/stationery/stationery-hk0457-p94-45.webp"
+    },
+    {
+      "productId": "stationery-hk0478",
+      "category": "Stationery",
+      "name": "SCRIBBLE Bamboo Ball Pen",
+      "code": "HK0478",
+      "cataloguePage": 95,
+      "pdfPage": 111,
+      "image": "/catalogue/stationery/stationery-hk0478-p95-46.webp"
+    },
+    {
+      "productId": "stationery-hk0476",
+      "category": "Stationery",
+      "name": "ECO Cork Pen",
+      "code": "HK0476",
+      "cataloguePage": 95,
+      "pdfPage": 111,
+      "image": "/catalogue/stationery/stationery-hk0476-p95-47.webp"
+    },
+    {
+      "productId": "stationery-hk0425",
+      "category": "Stationery",
+      "name": "OPUS Metal Ball Pen with Bamboo Grip",
+      "code": "HK0425",
+      "cataloguePage": 96,
+      "pdfPage": 112,
+      "image": "/catalogue/stationery/stationery-hk0425-p96-48.webp"
+    },
+    {
+      "productId": "stationery-hk0143",
+      "category": "Stationery",
+      "name": "KYNA Wooden Pencil",
+      "code": "HK0143",
+      "cataloguePage": 97,
+      "pdfPage": 113,
+      "image": "/catalogue/stationery/stationery-hk0143-p97-49.webp"
+    },
+    {
+      "productId": "stationery-hk0463-hk0464",
+      "category": "Stationery",
+      "name": "PEN BOX",
+      "code": "HK0463 / HK0464",
+      "cataloguePage": 98,
+      "pdfPage": 114,
+      "image": "/catalogue/stationery/stationery-hk0463-p98-50.webp"
+    },
+    {
+      "productId": "stationery-hk0463-hk0464",
+      "category": "Stationery",
+      "name": "PEN BOX",
+      "code": "HK0463 / HK0464",
+      "cataloguePage": 98,
+      "pdfPage": 114,
+      "image": "/catalogue/stationery/stationery-hk0464-p98-51.webp"
+    },
+    {
+      "productId": "stationery-hk0398",
+      "category": "Stationery",
+      "name": "ZEMNY Eco Friendly Mini Drawing Set",
+      "code": "HK0398",
+      "cataloguePage": 99,
+      "pdfPage": 115,
+      "image": "/catalogue/stationery/stationery-hk0398-p99-52.webp"
+    },
+    {
+      "productId": "stationery-hk0356",
+      "category": "Stationery",
+      "name": "LLAPIS Color Pencil- 12 pcs",
+      "code": "HK0356",
+      "cataloguePage": 100,
+      "pdfPage": 116,
+      "image": "/catalogue/stationery/stationery-hk0356-p100-53.webp"
+    },
+    {
+      "productId": "apparel-hk0317",
+      "category": "Apparel",
+      "name": "CYRUS Brush Cotton Cap",
+      "code": "HK0317",
+      "cataloguePage": 101,
+      "pdfPage": 121,
+      "image": "/catalogue/apparel/apparel-hk0317-p101-01.webp"
+    },
+    {
+      "productId": "apparel-hk0315",
+      "category": "Apparel",
+      "name": "ELIO Flexi Fit Cap",
+      "code": "HK0315",
+      "cataloguePage": 101,
+      "pdfPage": 121,
+      "image": "/catalogue/apparel/apparel-hk0315-p101-02.webp"
+    },
+    {
+      "productId": "apparel-hk0314",
+      "category": "Apparel",
+      "name": "SOLEIL Baseball HQ Cap",
+      "code": "HK0314",
+      "cataloguePage": 102,
+      "pdfPage": 122,
+      "image": "/catalogue/apparel/apparel-hk0314-p102-03.webp"
+    },
+    {
+      "productId": "apparel-hk0480",
+      "category": "Apparel",
+      "name": "FERVOR Cotton Cap",
+      "code": "HK0480",
+      "cataloguePage": 103,
+      "pdfPage": 123,
+      "image": "/catalogue/apparel/apparel-hk0480-p103-04.webp"
+    },
+    {
+      "productId": "apparel-hk0481",
+      "category": "Apparel",
+      "name": "RUGGED DriTech Cap",
+      "code": "HK0481",
+      "cataloguePage": 103,
+      "pdfPage": 123,
+      "image": "/catalogue/apparel/apparel-hk0481-p103-05.webp"
+    },
+    {
+      "productId": "apparel-hk0482",
+      "category": "Apparel",
+      "name": "LADDISH Mesh Cap",
+      "code": "HK0482",
+      "cataloguePage": 104,
+      "pdfPage": 124,
+      "image": "/catalogue/apparel/apparel-hk0482-p104-06.webp"
+    },
+    {
+      "productId": "apparel-round-neck-t-shirt",
+      "category": "Apparel",
+      "name": "ROUND-NECK T-SHIRT",
+      "code": "",
+      "cataloguePage": 105,
+      "pdfPage": 125,
+      "image": "/catalogue/apparel/apparel-round-neck-t-shirt-p105-174.webp"
+    },
+    {
+      "productId": "apparel-polo-t-shirt",
+      "category": "Apparel",
+      "name": "POLO T-SHIRT",
+      "code": "",
+      "cataloguePage": 106,
+      "pdfPage": 126,
+      "image": "/catalogue/apparel/apparel-polo-t-shirt-p106-175.webp"
+    },
+    {
+      "productId": "gift-sets-hk0411",
+      "category": "Gift Sets",
+      "name": "ERDUDFYL Cork+RPET Gift Set",
+      "code": "HK0411",
+      "cataloguePage": 107,
+      "pdfPage": 131,
+      "image": "/catalogue/gift-sets/gift-sets-hk0411-p107-01.webp"
+    },
+    {
+      "productId": "gift-sets-hk0475",
+      "category": "Gift Sets",
+      "name": "FILOFAX Bamboo Notebook Gift Set",
+      "code": "HK0475",
+      "cataloguePage": 107,
+      "pdfPage": 131,
+      "image": "/catalogue/gift-sets/gift-sets-hk0475-p107-02.webp"
+    },
+    {
+      "productId": "gift-sets-hk0474",
+      "category": "Gift Sets",
+      "name": "ALMANAC Cork Gift Set",
+      "code": "HK0474",
+      "cataloguePage": 108,
+      "pdfPage": 132,
+      "image": "/catalogue/gift-sets/gift-sets-hk0474-p108-03.webp"
+    },
+    {
+      "productId": "gift-sets-hk0416",
+      "category": "Gift Sets",
+      "name": "SAVVY Premium Gift Set",
+      "code": "HK0416",
+      "cataloguePage": 109,
+      "pdfPage": 133,
+      "image": "/catalogue/gift-sets/gift-sets-hk0416-p109-04.webp"
+    },
+    {
+      "productId": "gift-sets-hk0479",
+      "category": "Gift Sets",
+      "name": "POURBOIRE Bamboo Gift Set",
+      "code": "HK0479",
+      "cataloguePage": 110,
+      "pdfPage": 134,
+      "image": "/catalogue/gift-sets/gift-sets-hk0479-p110-05.webp"
+    },
+    {
+      "productId": "gift-sets-hk491",
+      "category": "Gift Sets",
+      "name": "PERQUISITE Black Gift Set",
+      "code": "HK491",
+      "cataloguePage": 110,
+      "pdfPage": 134,
+      "image": "/catalogue/gift-sets/gift-sets-hk491-p110-06.webp"
+    },
+    {
+      "productId": "gift-sets-hk0511",
+      "category": "Gift Sets",
+      "name": "ASTORIA Card Holder Gift Set",
+      "code": "HK0511",
+      "cataloguePage": 111,
+      "pdfPage": 135,
+      "image": "/catalogue/gift-sets/gift-sets-hk0511-p111-07.webp"
+    },
+    {
+      "productId": "gift-sets-hk0515",
+      "category": "Gift Sets",
+      "name": "ELARA Bottle Tumbler Gift Set",
+      "code": "HK0515",
+      "cataloguePage": 112,
+      "pdfPage": 136,
+      "image": "/catalogue/gift-sets/gift-sets-hk0515-p112-08.webp"
+    },
+    {
+      "productId": "gift-sets-hk0490",
+      "category": "Gift Sets",
+      "name": "CADDY Empty Gift Box with Die Cut",
+      "code": "HK0490",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hk0490-p113-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc003",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC003",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc003-p113-185.webp"
+    },
+    {
+      "productId": "gift-sets-hkc007",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC007",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc007-p113-186.webp"
+    },
+    {
+      "productId": "gift-sets-hkc010",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC010",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc010-p113-187.webp"
+    },
+    {
+      "productId": "gift-sets-hkc011",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC011",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc011-p113-188.webp"
+    },
+    {
+      "productId": "gift-sets-hkc008",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC008",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc008-p113-189.webp"
+    },
+    {
+      "productId": "gift-sets-hkc005",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC005",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc005-p113-190.webp"
+    },
+    {
+      "productId": "gift-sets-hkc009",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC009",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc009-p113-191.webp"
+    },
+    {
+      "productId": "gift-sets-hkc006",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC006",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc006-p113-192.webp"
+    },
+    {
+      "productId": "gift-sets-hkc012",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC012",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc012-p113-193.webp"
+    },
+    {
+      "productId": "gift-sets-hkc001",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC001",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc001-p113-194.webp"
+    },
+    {
+      "productId": "gift-sets-hkc004",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC004",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc004-p113-195.webp"
+    },
+    {
+      "productId": "gift-sets-hkc002",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC002",
+      "cataloguePage": 113,
+      "pdfPage": 137,
+      "image": "/catalogue/gift-sets/gift-sets-hkc002-p113-196.webp"
+    },
+    {
+      "productId": "gift-sets-hk0517",
+      "category": "Gift Sets",
+      "name": "EXECURA Magnetic Gift Box with Handle",
+      "code": "HK0517",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hk0517-p114-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc025",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC025",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc025-p114-198.webp"
+    },
+    {
+      "productId": "gift-sets-hkc087",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC087",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc087-p114-199.webp"
+    },
+    {
+      "productId": "gift-sets-hkc034",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC034",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc034-p114-200.webp"
+    },
+    {
+      "productId": "gift-sets-hkc034",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC034",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc034-p114-205.webp"
+    },
+    {
+      "productId": "gift-sets-hkc036",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC036",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc036-p114-201.webp"
+    },
+    {
+      "productId": "gift-sets-hkc086",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC086",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc086-p114-202.webp"
+    },
+    {
+      "productId": "gift-sets-hkc085",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC085",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc085-p114-203.webp"
+    },
+    {
+      "productId": "gift-sets-hkc032",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC032",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc032-p114-204.webp"
+    },
+    {
+      "productId": "gift-sets-hkc035",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC035",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc035-p114-206.webp"
+    },
+    {
+      "productId": "gift-sets-hkc027",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC027",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc027-p114-207.webp"
+    },
+    {
+      "productId": "gift-sets-hkc028",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC028",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc028-p114-208.webp"
+    },
+    {
+      "productId": "gift-sets-hkc026",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC026",
+      "cataloguePage": 114,
+      "pdfPage": 138,
+      "image": "/catalogue/gift-sets/gift-sets-hkc026-p114-209.webp"
+    },
+    {
+      "productId": "gift-sets-hk0518",
+      "category": "Gift Sets",
+      "name": "FORMIQ Magnetic Gift Box with Handle",
+      "code": "HK0518",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hk0518-p115-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc037",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC037",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc037-p115-211.webp"
+    },
+    {
+      "productId": "gift-sets-hkc041",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC041",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc041-p115-212.webp"
+    },
+    {
+      "productId": "gift-sets-hkc045",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC045",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc045-p115-213.webp"
+    },
+    {
+      "productId": "gift-sets-hkc046",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC046",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc046-p115-214.webp"
+    },
+    {
+      "productId": "gift-sets-hkc042",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC042",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc042-p115-215.webp"
+    },
+    {
+      "productId": "gift-sets-hkc043",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC043",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc043-p115-216.webp"
+    },
+    {
+      "productId": "gift-sets-hkc044",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC044",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc044-p115-217.webp"
+    },
+    {
+      "productId": "gift-sets-hkc047",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC047",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc047-p115-218.webp"
+    },
+    {
+      "productId": "gift-sets-hkc048",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC048",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hk0518-p115-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc039",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC039",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc039-p115-219.webp"
+    },
+    {
+      "productId": "gift-sets-hkc040",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC040",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc040-p115-220.webp"
+    },
+    {
+      "productId": "gift-sets-hkc038",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC038",
+      "cataloguePage": 115,
+      "pdfPage": 139,
+      "image": "/catalogue/gift-sets/gift-sets-hkc038-p115-221.webp"
+    },
+    {
+      "productId": "gift-sets-hk0519",
+      "category": "Gift Sets",
+      "name": "BRANDIS Empty Gift Box with Die Cut",
+      "code": "HK0519",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hk0519-p116-01.webp"
+    },
+    {
+      "productId": "gift-sets-hk0519",
+      "category": "Gift Sets",
+      "name": "HANDY Empty Gift Box",
+      "code": "HK0519",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hk0519-p117-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc013",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC013",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc013-p116-223.webp"
+    },
+    {
+      "productId": "gift-sets-hkc017",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC017",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc017-p116-224.webp"
+    },
+    {
+      "productId": "gift-sets-hkc021",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC021",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc021-p116-225.webp"
+    },
+    {
+      "productId": "gift-sets-hkc022",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC022",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc022-p116-226.webp"
+    },
+    {
+      "productId": "gift-sets-hkc018",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC018",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc018-p116-227.webp"
+    },
+    {
+      "productId": "gift-sets-hkc019",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC019",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc019-p116-228.webp"
+    },
+    {
+      "productId": "gift-sets-hkc020",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC020",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc020-p116-229.webp"
+    },
+    {
+      "productId": "gift-sets-hkc023",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC023",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc023-p116-230.webp"
+    },
+    {
+      "productId": "gift-sets-hkc024",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC024",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc024-p116-231.webp"
+    },
+    {
+      "productId": "gift-sets-hkc015",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC015",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc015-p116-232.webp"
+    },
+    {
+      "productId": "gift-sets-hkc016",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC016",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hk0519-p116-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc014",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC014",
+      "cataloguePage": 116,
+      "pdfPage": 140,
+      "image": "/catalogue/gift-sets/gift-sets-hkc014-p116-233.webp"
+    },
+    {
+      "productId": "gift-sets-hkc049",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC049",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc049-p117-235.webp"
+    },
+    {
+      "productId": "gift-sets-hkc053",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC053",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc053-p117-236.webp"
+    },
+    {
+      "productId": "gift-sets-hkc057",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC057",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc057-p117-237.webp"
+    },
+    {
+      "productId": "gift-sets-hkc058",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC058",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc058-p117-238.webp"
+    },
+    {
+      "productId": "gift-sets-hkc054",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC054",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc054-p117-239.webp"
+    },
+    {
+      "productId": "gift-sets-hkc055",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC055",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc055-p117-240.webp"
+    },
+    {
+      "productId": "gift-sets-hkc056",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC056",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc056-p117-241.webp"
+    },
+    {
+      "productId": "gift-sets-hkc059",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC059",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc059-p117-242.webp"
+    },
+    {
+      "productId": "gift-sets-hkc060",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC060",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc060-p117-243.webp"
+    },
+    {
+      "productId": "gift-sets-hkc051",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC051",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc051-p117-244.webp"
+    },
+    {
+      "productId": "gift-sets-hkc052",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC052",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hk0519-p117-01.webp"
+    },
+    {
+      "productId": "gift-sets-hkc050",
+      "category": "Gift Sets",
+      "name": "Customised Gift Set",
+      "code": "HKC050",
+      "cataloguePage": 117,
+      "pdfPage": 141,
+      "image": "/catalogue/gift-sets/gift-sets-hkc050-p117-245.webp"
+    },
+    {
+      "productId": "gift-sets-hkc065",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC065",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc065-p118-246.webp"
+    },
+    {
+      "productId": "gift-sets-hkc070",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC070",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc070-p118-247.webp"
+    },
+    {
+      "productId": "gift-sets-hkc075",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC075",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc075-p118-248.webp"
+    },
+    {
+      "productId": "gift-sets-hkc079",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC079",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc079-p118-249.webp"
+    },
+    {
+      "productId": "gift-sets-hkc068",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC068",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc068-p118-250.webp"
+    },
+    {
+      "productId": "gift-sets-hkc073",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC073",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc073-p118-251.webp"
+    },
+    {
+      "productId": "gift-sets-hkc077",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC077",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc077-p118-252.webp"
+    },
+    {
+      "productId": "gift-sets-hkc083",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC083",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc083-p118-253.webp"
+    },
+    {
+      "productId": "gift-sets-hkc069",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC069",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc069-p118-254.webp"
+    },
+    {
+      "productId": "gift-sets-hkc072",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC072",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc072-p118-255.webp"
+    },
+    {
+      "productId": "gift-sets-hkc078",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC078",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc078-p118-256.webp"
+    },
+    {
+      "productId": "gift-sets-hkc067",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC067",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc067-p118-257.webp"
+    },
+    {
+      "productId": "gift-sets-hkc066",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC066",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc066-p118-258.webp"
+    },
+    {
+      "productId": "gift-sets-hkc071",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC071",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc071-p118-259.webp"
+    },
+    {
+      "productId": "gift-sets-hkc076",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC076",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc076-p118-260.webp"
+    },
+    {
+      "productId": "gift-sets-hkc080",
+      "category": "Gift Sets",
+      "name": "Customised Goodie Bag",
+      "code": "HKC080",
+      "cataloguePage": 118,
+      "pdfPage": 142,
+      "image": "/catalogue/gift-sets/gift-sets-hkc080-p118-261.webp"
+    },
+    {
+      "productId": "promotional-hk0181",
+      "category": "Promotional",
+      "name": "OTHNIEL 20mm 3 in 1 Sublimation Lanyard",
+      "code": "HK0181",
+      "cataloguePage": 119,
+      "pdfPage": 147,
+      "image": "/catalogue/promotional/promotional-hk0181-p119-01.webp"
+    },
+    {
+      "productId": "promotional-hk0184",
+      "category": "Promotional",
+      "name": "BREE 2 in 1 Sublimation Lanyard",
+      "code": "HK0184",
+      "cataloguePage": 119,
+      "pdfPage": 147,
+      "image": "/catalogue/promotional/promotional-hk0181-p119-01.webp"
+    },
+    {
+      "productId": "promotional-hk0182",
+      "category": "Promotional",
+      "name": "GARRETT 20mm 3 in 1 Lanyard",
+      "code": "HK0182",
+      "cataloguePage": 119,
+      "pdfPage": 147,
+      "image": "/catalogue/promotional/promotional-hk0182-p119-03.webp"
+    },
+    {
+      "productId": "promotional-hk0183",
+      "category": "Promotional",
+      "name": "GERTRUDE 15mm Hook Lanyard",
+      "code": "HK0183",
+      "cataloguePage": 120,
+      "pdfPage": 148,
+      "image": "/catalogue/promotional/promotional-hk0183-p120-04.webp"
+    },
+    {
+      "productId": "promotional-hk0187",
+      "category": "Promotional",
+      "name": "VALINS Lanyard with Epoxy Area and Clip",
+      "code": "HK0187",
+      "cataloguePage": 120,
+      "pdfPage": 148,
+      "image": "/catalogue/promotional/promotional-hk0187-p120-05.webp"
+    },
+    {
+      "productId": "promotional-hk0188",
+      "category": "Promotional",
+      "name": "KIERROS Small Dia Reel Badge",
+      "code": "HK0188",
+      "cataloguePage": 121,
+      "pdfPage": 149,
+      "image": "/catalogue/promotional/promotional-hk0188-p121-06.webp"
+    },
+    {
+      "productId": "promotional-hk0189",
+      "category": "Promotional",
+      "name": "GROOT Big Dia Reel Badge",
+      "code": "HK0189",
+      "cataloguePage": 121,
+      "pdfPage": 149,
+      "image": "/catalogue/promotional/promotional-hk0189-p121-07.webp"
+    },
+    {
+      "productId": "promotional-hk0190s-hk0190b",
+      "category": "Promotional",
+      "name": "HEITI",
+      "code": "HK0190S / HK0190B",
+      "cataloguePage": 122,
+      "pdfPage": 150,
+      "image": "/catalogue/promotional/promotional-hk0190s-p122-08.webp"
+    },
+    {
+      "productId": "promotional-hk0190s-hk0190b",
+      "category": "Promotional",
+      "name": "• Reel Badge Holder Material: High-quality Metal Sturdy Circular",
+      "code": "HK0190S / HK0190B",
+      "cataloguePage": 122,
+      "pdfPage": 150,
+      "image": "/catalogue/promotional/promotional-hk0190b-p122-09.webp"
+    },
+    {
+      "productId": "promotional-hk0193",
+      "category": "Promotional",
+      "name": "BOURSE - SMALL BOURSE - MEDIUM ID Card Pouch ID Card Pouch",
+      "code": "HK0193",
+      "cataloguePage": 123,
+      "pdfPage": 151,
+      "image": "/catalogue/promotional/promotional-hk0193-p123-10.webp"
+    },
+    {
+      "productId": "promotional-hk0194",
+      "category": "Promotional",
+      "name": "Outer Size : 67 x 113 mm Outer Size : 74 x 122 mm",
+      "code": "HK0194",
+      "cataloguePage": 123,
+      "pdfPage": 151,
+      "image": "/catalogue/promotional/promotional-hk0194-p123-11.webp"
+    },
+    {
+      "productId": "promotional-hk0196",
+      "category": "Promotional",
+      "name": "BOURSE - LARGE BOURSE - XLARGE ID Card Pouch ID Card Pouch",
+      "code": "HK0196",
+      "cataloguePage": 123,
+      "pdfPage": 151,
+      "image": "/catalogue/promotional/promotional-hk0196-p123-12.webp"
+    },
+    {
+      "productId": "promotional-hk0195",
+      "category": "Promotional",
+      "name": "Outer Size : 100 x 155 mm Outer Size : 122 x 197 mm",
+      "code": "HK0195",
+      "cataloguePage": 123,
+      "pdfPage": 151,
+      "image": "/catalogue/promotional/promotional-hk0195-p123-13.webp"
+    },
+    {
+      "productId": "promotional-hk0191",
+      "category": "Promotional",
+      "name": "KISEE-HORIZONTAL Frosty ID Card Pouch",
+      "code": "HK0191",
+      "cataloguePage": 124,
+      "pdfPage": 152,
+      "image": "/catalogue/promotional/promotional-hk0191-p124-14.webp"
+    },
+    {
+      "productId": "promotional-hk0192",
+      "category": "Promotional",
+      "name": "TASCHE Acrylic ID Card Pouch",
+      "code": "HK0192",
+      "cataloguePage": 124,
+      "pdfPage": 152,
+      "image": "/catalogue/promotional/promotional-hk0191-p124-14.webp"
+    },
+    {
+      "productId": "promotional-hk0504",
+      "category": "Promotional",
+      "name": "PRIBOR Reel Badge",
+      "code": "HK0504",
+      "cataloguePage": 125,
+      "pdfPage": 153,
+      "image": "/catalogue/promotional/promotional-hk0504-p125-16.webp"
+    },
+    {
+      "productId": "promotional-hk0171",
+      "category": "Promotional",
+      "name": "TRANQUIL Round Stress Ball",
+      "code": "HK0171",
+      "cataloguePage": 126,
+      "pdfPage": 154,
+      "image": "/catalogue/promotional/promotional-hk0171-p126-17.webp"
+    },
+    {
+      "productId": "promotional-hk0172",
+      "category": "Promotional",
+      "name": "SERENE Cube Stress Ball",
+      "code": "HK0172",
+      "cataloguePage": 127,
+      "pdfPage": 155,
+      "image": "/catalogue/promotional/promotional-hk0172-p127-18.webp"
+    },
+    {
+      "productId": "promotional-hk0173",
+      "category": "Promotional",
+      "name": "KOELE Heart Stress Ball",
+      "code": "HK0173",
+      "cataloguePage": 127,
+      "pdfPage": 155,
+      "image": "/catalogue/promotional/promotional-hk0173-p127-19.webp"
+    },
+    {
+      "productId": "promotional-hk0161",
+      "category": "Promotional",
+      "name": "ELAINE Silver Sun Shade",
+      "code": "HK0161",
+      "cataloguePage": 128,
+      "pdfPage": 156,
+      "image": "/catalogue/promotional/promotional-hk0161-p128-20.webp"
+    },
+    {
+      "productId": "promotional-hk0162",
+      "category": "Promotional",
+      "name": "SULIEN White Sun Shade",
+      "code": "HK0162",
+      "cataloguePage": 128,
+      "pdfPage": 156,
+      "image": "/catalogue/promotional/promotional-hk0162-p128-21.webp"
+    },
+    {
+      "productId": "promotional-hk0312",
+      "category": "Promotional",
+      "name": "YVETTE Bamboo Keychain",
+      "code": "HK0312",
+      "cataloguePage": 129,
+      "pdfPage": 157,
+      "image": "/catalogue/promotional/promotional-hk0312-p129-22.webp"
+    },
+    {
+      "productId": "promotional-hk0516",
+      "category": "Promotional",
+      "name": "GRIPPY Leather Keychain",
+      "code": "HK0516",
+      "cataloguePage": 130,
+      "pdfPage": 158,
+      "image": "/catalogue/promotional/promotional-hk0516-p130-23.webp"
+    },
+    {
+      "productId": "promotional-hk0313",
+      "category": "Promotional",
+      "name": "OREN Bamboo Keychain",
+      "code": "HK0313",
+      "cataloguePage": 131,
+      "pdfPage": 159,
+      "image": "/catalogue/promotional/promotional-hk0313-p131-24.webp"
+    },
+    {
+      "productId": "promotional-hk0414",
+      "category": "Promotional",
+      "name": "TRINKET ROUND Bamboo Metal Keychain",
+      "code": "HK0414",
+      "cataloguePage": 131,
+      "pdfPage": 159,
+      "image": "/catalogue/promotional/promotional-hk0414-p131-25.webp"
+    },
+    {
+      "productId": "promotional-hk0415",
+      "category": "Promotional",
+      "name": "TRINKET RECTANGLE Bamboo Metal Keychain",
+      "code": "HK0415",
+      "cataloguePage": 131,
+      "pdfPage": 159,
+      "image": "/catalogue/promotional/promotional-hk0313-p131-24.webp"
+    },
+    {
+      "productId": "promotional-hk0311",
+      "category": "Promotional",
+      "name": "MEADOW Keychain with Bottle Opener",
+      "code": "HK0311",
+      "cataloguePage": 132,
+      "pdfPage": 160,
+      "image": "/catalogue/promotional/promotional-hk0311-p132-27.webp"
+    },
+    {
+      "productId": "promotional-hk0147",
+      "category": "Promotional",
+      "name": "KODIN Key Chain Model 2",
+      "code": "HK0147",
+      "cataloguePage": 132,
+      "pdfPage": 160,
+      "image": "/catalogue/promotional/promotional-hk0147-p132-28.webp"
+    },
+    {
+      "productId": "promotional-hk0152",
+      "category": "Promotional",
+      "name": "VERO Key Chain Model 7 with Colored Strap",
+      "code": "HK0152",
+      "cataloguePage": 133,
+      "pdfPage": 161,
+      "image": "/catalogue/promotional/promotional-hk0152-p133-29.webp"
+    },
+    {
+      "productId": "promotional-hk0150",
+      "category": "Promotional",
+      "name": "ROSTAM Metal Keychain",
+      "code": "HK0150",
+      "cataloguePage": 133,
+      "pdfPage": 161,
+      "image": "/catalogue/promotional/promotional-hk0152-p133-29.webp"
+    },
+    {
+      "productId": "promotional-hk0159",
+      "category": "Promotional",
+      "name": "KANT Rectangle Sublimation Mouse Pad",
+      "code": "HK0159",
+      "cataloguePage": 134,
+      "pdfPage": 162,
+      "image": "/catalogue/promotional/promotional-hk0159-p134-31.webp"
+    },
+    {
+      "productId": "promotional-hk0157",
+      "category": "Promotional",
+      "name": "KARIT Round Sublimation Mouse Pad",
+      "code": "HK0157",
+      "cataloguePage": 134,
+      "pdfPage": 162,
+      "image": "/catalogue/promotional/promotional-hk0157-p134-32.webp"
+    },
+    {
+      "productId": "promotional-hk0167",
+      "category": "Promotional",
+      "name": "ARMLET Silicon Wristband",
+      "code": "HK0167",
+      "cataloguePage": 135,
+      "pdfPage": 163,
+      "image": "/catalogue/promotional/promotional-hk0167-p135-33.webp"
+    },
+    {
+      "productId": "promotional-hk0170",
+      "category": "Promotional",
+      "name": "QOLBAQ Tyvek Wristband",
+      "code": "HK0170",
+      "cataloguePage": 136,
+      "pdfPage": 164,
+      "image": "/catalogue/promotional/promotional-hk0170-p136-34.webp"
+    },
+    {
+      "productId": "promotional-hk0144",
+      "category": "Promotional",
+      "name": "FLUER Flower Shaped Highlighter",
+      "code": "HK0144",
+      "cataloguePage": 136,
+      "pdfPage": 164,
+      "image": "/catalogue/promotional/promotional-hk0170-p136-34.webp"
+    },
+    {
+      "productId": "promotional-hk0145",
+      "category": "Promotional",
+      "name": "PESTRE Hand Shaped Highlighter",
+      "code": "HK0145",
+      "cataloguePage": 137,
+      "pdfPage": 165,
+      "image": "/catalogue/promotional/promotional-hk0145-p137-36.webp"
+    },
+    {
+      "productId": "promotional-hk0174",
+      "category": "Promotional",
+      "name": "NAPPI Metal Back Button Badge",
+      "code": "HK0174",
+      "cataloguePage": 138,
+      "pdfPage": 166,
+      "image": "/catalogue/promotional/promotional-hk0174-p138-37.webp"
+    },
+    {
+      "productId": "promotional-hk0326",
+      "category": "Promotional",
+      "name": "Customised Fabric Wristbands",
+      "code": "HK0326",
+      "cataloguePage": 139,
+      "pdfPage": 167,
+      "image": "/catalogue/promotional/promotional-hk0326-p139-01.webp"
+    },
+    {
+      "productId": "promotional-hk0237",
+      "category": "Promotional",
+      "name": "",
+      "code": "HK0237",
+      "cataloguePage": 139,
+      "pdfPage": 167,
+      "image": "/catalogue/promotional/promotional-hk0237-p139-02.webp"
+    },
+    {
+      "productId": "promotional-customised-lanyard",
+      "category": "Promotional",
+      "name": "Customised Lanyard",
+      "code": "",
+      "cataloguePage": 140,
+      "pdfPage": 168,
+      "image": "/catalogue/promotional/promotional-customised-lanyard-p140-285.webp"
+    },
+    {
+      "productId": "promotional-custom-size-id-card",
+      "category": "Promotional",
+      "name": "Custom Size ID Card",
+      "code": "",
+      "cataloguePage": 140,
+      "pdfPage": 168,
+      "image": "/catalogue/promotional/promotional-custom-size-id-card-p140-286.webp"
+    },
+    {
+      "productId": "on-demand-full-sublimation-customised-scarves",
+      "category": "On Demand",
+      "name": "FULL SUBLIMATION CUSTOMISED SCARVES",
+      "code": "",
+      "cataloguePage": 141,
+      "pdfPage": 173,
+      "image": "/catalogue/on-demand/on-demand-full-sublimation-customised-scarves-p141-272.webp"
+    },
+    {
+      "productId": "on-demand-customised-scarves",
+      "category": "On Demand",
+      "name": "CUSTOMISED SCARVES",
+      "code": "",
+      "cataloguePage": 141,
+      "pdfPage": 173,
+      "image": "/catalogue/on-demand/on-demand-customised-scarves-p141-273.webp"
+    },
+    {
+      "productId": "on-demand-customised-round-neck-t-shirts",
+      "category": "On Demand",
+      "name": "CUSTOMISED ROUND NECK T-SHIRTS",
+      "code": "",
+      "cataloguePage": 142,
+      "pdfPage": 174,
+      "image": "/catalogue/on-demand/on-demand-customised-round-neck-t-shirts-p142-274.webp"
+    },
+    {
+      "productId": "on-demand-customised-polo-neck-t-shirts",
+      "category": "On Demand",
+      "name": "CUSTOMISED POLO NECK T-SHIRTS",
+      "code": "",
+      "cataloguePage": 144,
+      "pdfPage": 176,
+      "image": "/catalogue/on-demand/on-demand-customised-polo-neck-t-shirts-p144-275.webp"
+    },
+    {
+      "productId": "on-demand-full-sublimation-customised-round-neck-t-shirts",
+      "category": "On Demand",
+      "name": "FULL SUBLIMATION CUSTOMISED ROUND NECK T-SHIRTS",
+      "code": "",
+      "cataloguePage": 146,
+      "pdfPage": 178,
+      "image": "/catalogue/on-demand/on-demand-full-sublimation-customised-round-neck-t-shirts-p146-276.webp"
+    },
+    {
+      "productId": "on-demand-full-sublimation-customised-polo-neck-t-shirts",
+      "category": "On Demand",
+      "name": "FULL SUBLIMATION CUSTOMISED POLO NECK T-SHIRTS",
+      "code": "",
+      "cataloguePage": 147,
+      "pdfPage": 179,
+      "image": "/catalogue/on-demand/on-demand-full-sublimation-customised-polo-neck-t-shirts-p147-277.webp"
+    },
+    {
+      "productId": "on-demand-customised-hoodie-without-zip",
+      "category": "On Demand",
+      "name": "CUSTOMISED HOODIE WITHOUT ZIP",
+      "code": "",
+      "cataloguePage": 148,
+      "pdfPage": 180,
+      "image": "/catalogue/on-demand/on-demand-customised-hoodie-without-zip-p148-278.webp"
+    },
+    {
+      "productId": "on-demand-customised-hoodie-with-zip",
+      "category": "On Demand",
+      "name": "CUSTOMISED HOODIE WITH ZIP",
+      "code": "",
+      "cataloguePage": 149,
+      "pdfPage": 181,
+      "image": "/catalogue/on-demand/on-demand-customised-hoodie-with-zip-p149-279.webp"
+    },
+    {
+      "productId": "on-demand-customised-coverall",
+      "category": "On Demand",
+      "name": "CUSTOMISED COVERALL",
+      "code": "",
+      "cataloguePage": 150,
+      "pdfPage": 182,
+      "image": "/catalogue/on-demand/on-demand-customised-coverall-p150-280.webp"
+    },
+    {
+      "productId": "on-demand-customised-safety-jacket",
+      "category": "On Demand",
+      "name": "CUSTOMISED SAFETY JACKET",
+      "code": "",
+      "cataloguePage": 151,
+      "pdfPage": 183,
+      "image": "/catalogue/on-demand/on-demand-customised-safety-jacket-p151-281.webp"
+    },
+    {
+      "productId": "on-demand-customised-apron",
+      "category": "On Demand",
+      "name": "CUSTOMISED APRON",
+      "code": "",
+      "cataloguePage": 152,
+      "pdfPage": 184,
+      "image": "/catalogue/on-demand/on-demand-customised-apron-p152-282.webp"
+    }
+  ]
+}
