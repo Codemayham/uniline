@@ -9,6 +9,7 @@ const PHONE = '+971504940277';
 const PHONE_DISPLAY = '+971 50 494 0277';
 const EMAIL = 'info@unilineadvertising.ae';
 const WHATSAPP_NUMBER = PHONE.replace(/^\+/, '');
+const LOCATION_MAP_URL = 'https://www.google.com/maps/search/?api=1&query=25.2794549%2C55.3444817';
 const HERO_PHRASES = [
   'impossible to forget.',
   'More Than Just a Logo',
@@ -993,7 +994,7 @@ function App() {
               <div className="contact-divider" />
               <div className="contact-detail"><span className="contact-icon"><Phone size={17} /></span><span><small>CALL OUR OFFICE</small><a href={`tel:${PHONE}`}>{PHONE_DISPLAY}</a></span></div>
               <div className="contact-detail"><span className="contact-icon">W</span><span><small>CHAT WITH US</small><WhatsAppLink className="contact-link">Chat on WhatsApp</WhatsAppLink></span></div>
-              <div className="contact-detail"><span className="contact-icon"><Clock3 size={17} /></span><span><small>FIND US</small><strong>310, Zakir Business Centre,<br />Abu Hail, Deira</strong></span></div>
+              <div className="contact-detail"><span className="contact-icon"><Clock3 size={17} /></span><span><small>FIND US</small><a className="location-link" href={LOCATION_MAP_URL} target="_blank" rel="noreferrer" aria-label="Open Zakir Business Centre in Google Maps">310, Zakir Business Centre,<br />Abu Hail, Deira</a></span></div>
               <div className="contact-detail"><span className="contact-icon"><Send size={16} /></span><span><small>EMAIL OUR TEAM</small><a href={`mailto:${EMAIL}`}>{EMAIL}</a></span></div>
             </div>
             <div className="form-panel">
@@ -1015,7 +1016,7 @@ function App() {
           <div className="footer-about"><Brand light /><p>Promotional merchandise and branding solutions for meaningful business connections.</p><div className="footer-social"><WhatsAppLink className="footer-whatsapp">Chat on WhatsApp</WhatsAppLink><a href={`tel:${PHONE}`}><Phone size={14} /> Call us</a></div></div>
           <div className="footer-links"><h4>EXPLORE</h4><a href="/#about">About us</a><a href="/products">Product catalogue</a><a href="/#approach">Corporate solutions</a><button className="footer-link-button" onClick={() => openQuote()}>Request a quote</button></div>
           <div className="footer-links"><h4>PRODUCTS</h4><a href="/products?category=Gift%20Sets">Gift sets</a><a href="/products?category=Drinkware">Drinkware</a><a href="/products?category=Bags">Bags</a><a href="/products?category=Gadgets">Gadgets</a></div>
-          <div className="footer-contact"><h4>GET IN TOUCH</h4><a href={`tel:${PHONE}`}>{PHONE_DISPLAY} <ArrowUpRight size={13} /></a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><address>310, Zakir Business Centre,<br />Abu Hail, Deira</address></div>
+          <div className="footer-contact"><h4>GET IN TOUCH</h4><a href={`tel:${PHONE}`}>{PHONE_DISPLAY} <ArrowUpRight size={13} /></a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><address><a className="location-link" href={LOCATION_MAP_URL} target="_blank" rel="noreferrer" aria-label="Open Zakir Business Centre in Google Maps">310, Zakir Business Centre,<br />Abu Hail, Deira</a></address></div>
         </div>
         <div className="footer-bottom section-wrap"><span>© {new Date().getFullYear()} Uniline Promotions. All rights reserved.</span><span>Corporate gifts and branding solutions · Dubai, UAE</span><a href="/">Back to top ↑</a></div>
       </footer>
