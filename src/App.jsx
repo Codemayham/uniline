@@ -85,7 +85,7 @@ function ClientLogoCarousel() {
             <div className="client-logos-group" key={copy} aria-hidden={copy === 1}>
               {clientLogos.map(({ name, image, dark, emphasized }) => (
                 <div className={`client-logo-card${dark ? ' client-logo-card-dark' : ''}${emphasized ? ' client-logo-card-emphasized' : ''}`} key={name}>
-                  <img src={image} alt={copy === 0 ? name : ''} />
+                  <img src={image} alt={copy === 0 ? name : ''} loading="lazy" decoding="async" />
                 </div>
               ))}
             </div>
@@ -285,7 +285,7 @@ function Header({ onQuote, onProducts, onHome, isProductsPage }) {
   );
 }
 
-function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange, items, onDetails, onEnquire }) {
+function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange, items, catalogueLoading, onDetails, onEnquire }) {
   const [itemsToShow, setItemsToShow] = useState(20);
 
   useEffect(() => {
@@ -301,7 +301,7 @@ function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange
           <span className="eyebrow"><span className="eyebrow-line" /> THE UNILINE COLLECTION</span>
           <h1>Products &amp; services,<br /><span>thoughtfully detailed.</span></h1>
           <p>Browse the complete range of promotional merchandise and branding services. Search by item or filter by category, then enquire about customization and a quote.</p>
-          <div className="products-page-total"><strong>{serviceCategories.reduce((total, category) => total + category.products.length, 0)}</strong> category listings <i /> <strong>{serviceCategories.length}</strong> categories</div>
+          <div className="products-page-total"><strong>{serviceCategories.reduce((total, category) => total + category.count, 0)}</strong> catalogue listings <i /> <strong>{serviceCategories.length}</strong> categories</div>
         </div>
       </section>
       <section className="products-page-catalogue section-wrap">
@@ -330,11 +330,13 @@ function ProductsPage({ activeCategory, onCategoryChange, search, onSearchChange
               aria-pressed={activeCategory === category.name}
               onClick={() => onCategoryChange(category.name)}
             >
-              {category.name} <span>{category.products.length}</span>
+              {category.name} <span>{category.count}</span>
             </button>
           ))}
         </div>
-        {items.length ? (
+        {catalogueLoading ? (
+          <p className="catalogue-loading" role="status">Loading the catalogue…</p>
+        ) : items.length ? (
           <div className="service-items-grid products-page-grid">
             {visibleItems.map(({ product, category }) => (
               <ServiceItemCard
@@ -376,20 +378,19 @@ function HomeServices({ onSelectCategory }) {
       </div>
       <div className="home-services-grid">
         {serviceCategories.map((category) => {
-          const image = category.products[0];
           return (
             <button
               type="button"
               className="home-service-card"
               key={category.name}
               onClick={() => onSelectCategory(category.name)}
-              aria-label={`Browse ${category.name}, ${category.products.length} listings`}
+              aria-label={`Browse ${category.name}, ${category.count} listings`}
             >
               <span className="home-service-image">
-                <img src={imageUrl(image.image, 560, 'max')} alt="" loading="lazy" />
+                <img src={category.image} alt="" loading="lazy" decoding="async" />
               </span>
               <span className="home-service-info">
-                <span className="home-service-count">{category.products.length} listings</span>
+                <span className="home-service-count">{category.count} listings</span>
                 <strong>{category.name}</strong>
                 <span className="home-service-link">Browse category <ArrowRight size={15} /></span>
               </span>
@@ -468,7 +469,7 @@ function ProductModal({ product, onClose, onQuote }) {
     <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <section className="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <button className="modal-close" onClick={onClose} aria-label="Close product details"><X size={19} /></button>
-        <img className="modal-image" src={imageUrl(product.image, 1000, 'max')} alt={product.name} />
+        <img className="modal-image" src={imageUrl(product.image, 1000, 'max')} alt={product.name} decoding="async" />
         <div className="modal-content">
           <div className="eyebrow">
             {product.category}
@@ -672,10 +673,18 @@ function App() {
   const [quoteDialogOpen, setQuoteDialogOpen] = useState(false);
   const [detailProduct, setDetailProduct] = useState(null);
   const [serviceSearch, setServiceSearch] = useState('');
+  const [catalogueCategories, setCatalogueCategories] = useState([]);
   const [activeServiceCategory, setActiveServiceCategory] = useState(
     initialPath === '/products' ? initialServiceCategory : null,
   );
   const closeQuoteDialog = useCallback(() => setQuoteDialogOpen(false), []);
+
+  useEffect(() => {
+    if (page !== 'products' || catalogueCategories.length) return;
+    import('./catalogueData.json').then(({ default: catalogueData }) => {
+      setCatalogueCategories(catalogueData.categories);
+    });
+  }, [page, catalogueCategories.length]);
 
   useEffect(() => {
     if (window.location.pathname !== initialPath && (initialPath === '/' || initialPath === '/products')) {
@@ -861,8 +870,8 @@ function App() {
   const visibleServiceItems = useMemo(() => {
     if (!activeServiceCategory && !serviceSearch.trim()) return [];
     const selectedGroups = activeServiceCategory && activeServiceCategory !== 'All items'
-      ? serviceCategories.filter((group) => group.name === activeServiceCategory)
-      : serviceCategories;
+      ? catalogueCategories.filter((group) => group.name === activeServiceCategory)
+      : catalogueCategories;
     const seen = new Set();
     const search = serviceSearch.trim().toLowerCase();
     return selectedGroups.flatMap((group) => group.products.map((product) => ({ product, category: group.name })))
@@ -884,7 +893,7 @@ function App() {
         ];
         return !search || searchableFields.filter(Boolean).join(' ').toLowerCase().includes(search);
       });
-  }, [activeServiceCategory, serviceSearch]);
+  }, [activeServiceCategory, catalogueCategories, serviceSearch]);
 
   return (
     <>
@@ -905,6 +914,7 @@ function App() {
           search={serviceSearch}
           onSearchChange={setServiceSearch}
           items={visibleServiceItems}
+          catalogueLoading={!catalogueCategories.length}
           onDetails={openProductDetails}
           onEnquire={openQuote}
         />
@@ -912,7 +922,7 @@ function App() {
       <main>
         <section className="hero" id="home">
           <div className="hero-background">
-            <img src="/images/uniline-gift-set.jpg" alt="" fetchpriority="high" />
+            <img src="/images/uniline-hero-swag.jpg" alt="" fetchpriority="high" decoding="async" />
           </div>
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-line" /> DUBAI · UAE · BRANDING WITH PURPOSE</div>

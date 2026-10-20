@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Printing",
+    "slug": "printing",
+    "cataloguePages": "4-7",
+    "count": 14,
+    "image": "/catalogue/printing/printing-360-uv-printing-p4-262.webp"
+  },
+  {
+    "name": "Gadgets",
+    "slug": "gadgets",
+    "cataloguePages": "9-26",
+    "count": 27,
+    "image": "/catalogue/gadgets/gadgets-hk0506-p9-01.webp"
+  },
+  {
+    "name": "Drinkware",
+    "slug": "drinkware",
+    "cataloguePages": "27-44",
+    "count": 28,
+    "image": "/catalogue/drinkware/drinkware-hk0430-p27-01.webp"
+  },
+  {
+    "name": "Bags",
+    "slug": "bags",
+    "cataloguePages": "45-64",
+    "count": 29,
+    "image": "/catalogue/bags/bags-hk0513-p45-01.webp"
+  },
+  {
+    "name": "Stationery",
+    "slug": "stationery",
+    "cataloguePages": "65-100",
+    "count": 52,
+    "image": "/catalogue/stationery/stationery-hk0030-p65-01.webp"
+  },
+  {
+    "name": "Apparel",
+    "slug": "apparel",
+    "cataloguePages": "101-106",
+    "count": 8,
+    "image": "/catalogue/apparel/apparel-hk0317-p101-01.webp"
+  },
+  {
+    "name": "Gift Sets",
+    "slug": "gift-sets",
+    "cataloguePages": "107-118",
+    "count": 87,
+    "image": "/catalogue/gift-sets/gift-sets-hk0411-p107-01.webp"
+  },
+  {
+    "name": "Promotional",
+    "slug": "promotional",
+    "cataloguePages": "119-140",
+    "count": 40,
+    "image": "/catalogue/promotional/promotional-hk0181-p119-01.webp"
+  },
+  {
+    "name": "On Demand",
+    "slug": "on-demand",
+    "cataloguePages": "141-152",
+    "count": 11,
+    "image": "/catalogue/on-demand/on-demand-full-sublimation-customised-scarves-p141-272.webp"
+  }
+]
