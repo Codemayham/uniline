@@ -24,10 +24,6 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
 body { margin: 0; min-width: 320px; }
-@media (hover: hover) and (pointer: fine) {
-  body { cursor: url('/images/cup-cursor.png') 20 1, auto; }
-  a, button, label, select, [role="button"] { cursor: url('/images/cup-cursor.png') 20 1, pointer; }
-}
 button, input, select, textarea { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { color: inherit; }
